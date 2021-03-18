@@ -1,29 +1,22 @@
 <template>
-  <section class="bg-graylight ">
+  <section class="">
     <b-container class=" pt-5 pb-5 ">
       <b-row>
-        <b-col cols="12" md="12" lg="12" class="text-center pb-4">
-          <h1 class="text-title text-blackdark title-font">
+        <b-col cols="12" md="6" lg="6">
+          <h1 class="text-title text-imobanco title-font pt-4">
             Solução de integração
           </h1>
-          <h3 class="text-content">Ferramentas para sua loja.</h3>
-        </b-col>
-        <b-col cols="12" md="6" lg="8">
-          <h1 class="text-title text-blackdark title-font">
+          <h3 class="text-content text-success">Ferramentas para sua loja.</h3>
+          <h1 class="text-title text-blackdark title-font pt-5">
             API E-Commerce Imobanco
           </h1>
           <p class="text-content">
             Para facilitar a integração da API, disponibilizamos a biblioteca
             completa para seu desenvolvedor.
           </p>
-          <a
-            href="https://imopay.com.br/"
-            target="_blank"
-            class="btn bg-info form-radius text-white"
-            >Acessar Api Imobanco</a
-          >
         </b-col>
-        <b-col cols="12" md="6" lg="4">
+        <b-col  lg="1" ></b-col>
+        <b-col cols="12" md="6" lg="5">
           <img src="~static/image/api.png" class="img-fluid" />
         </b-col>
       </b-row>

@@ -1,25 +1,22 @@
 <template>
-  <section class="bg-success pt-5 pb-5">
+  <section class="bg-graylight pt-5 pb-5">
     <b-container>
       <b-row>
         <b-col cols="12" md="7" lg="8" class="pt-5">
-          <h1 class="mt-5 mb-0 text-title text-white title-font">
+          <h1 class="mt-5 mb-0 text-title text-imobanco title-font">
             Garanta já a sua presença no mundo online
           </h1>
-          <p class="text-content text-white pb-0 mb-0">
-            Tenha sucesso e venda para qualquer lugar!
-          </p>
-          <p class="text-content text-white pb-0 mb-0">
+          <h5 class="text-content text-blackdark pb-0 mb-0">
             Preço: Setup e custo para treinamento
-          </p>
-          <h1 class="mb-0 text-title text-white title-font">R$ 0,00</h1>
-          <p class="text-content text-white">
+          </h5>
+          <h1 class="mb-0 text-title text-blackdark title-font">R$ 0,00</h1>
+          <h5 class="text-content text-blackdark">
             Gratuito até 15 de setembro. *consulte as taxas transacionais.
-          </p>
+          </h5>
           <a
             href="http://app.imobanco.com.br/register"
             target="_blank"
-            class="btn bg-white form-radius"
+            class="btn bg-primary mt-3 text-white"
             >Contrate já!</a
           >
         </b-col>

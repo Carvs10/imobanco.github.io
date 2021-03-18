@@ -1,31 +1,37 @@
 <template>
-  <section class="bg-graylight pt-5 pb-5">
+  <section class="pt-5 pb-5">
     <b-container>
       <b-row>
-        <b-col cols="12" md="4" lg="3">
-          <h3 class="text-title text-primary title-font">
+        <b-col cols="12" md="4" lg="6">
+          <h3 class="text-title text-imobanco title-font">
             Transação bancária para o seu <br />
             E-commerce
           </h3>
-          <p class="text-primary text-content">
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col cols="12" md="4" lg="8">
+          <p class="text-success text-content" style="font-size:30px">
             Aceitamos as principais bandeiras nacionais e boletos dentro da sua
             loja E-Commerce
           </p>
         </b-col>
+      </b-row>
+      <b-row>
         <b-col cols="12" md="4" lg="3" class="pt-2">
-          <p class="text-subtitle text-primary">Crédito: Pagamentos digitais</p>
+          <p class="text-subtitle text-success">Crédito: Pagamentos digitais</p>
           <img src="~static/image/creditoecommerce.png" class="img-fluid" />
         </b-col>
 
         <b-col cols="12" md="4" lg="3" class="pt-2">
-          <p class="text-subtitle text-primary">
+          <p class="text-subtitle text-success">
             Débito: Pagamentos presenciais
           </p>
           <img src="~static/image/debitoecommerce.png" class="img-fluid" />
         </b-col>
 
         <b-col cols="12" md="4" lg="3" class="pt-2">
-          <p class="text-subtitle text-primary">
+          <p class="text-subtitle text-success">
             Boleto Bancário e Transferência
           </p>
           <img
@@ -34,9 +40,9 @@
           />
         </b-col>
       </b-row>
-      <b-row class="justify-content-center">
+      <b-row class="justify-content-center pt-5">
         <b-col cols="12" md="12" lg="12">
-          <h3 class="text-title text-primary title-font">
+          <h3 class="text-title text-imobanco title-font">
             + Vantagens, Integração e Suporte
           </h3>
         </b-col>
