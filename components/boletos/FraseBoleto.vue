@@ -1,22 +1,18 @@
 <template>
-  <section class="pt-5 pb-5 bg-blackdark">
+  <section class="pt-5 pb-5 container">
     <b-container>
       <b-row>
-        <b-col cols="12" md="6" lg="6">
-          <h1 class="text-title text-success title-font">
-            Emita seus boletos com Imobanco.
-          </h1>
-          <p class="text-content text-justify text-graylight">
-            A melhor solução do mercado brasileiro. Somos o seu novo MODAL
-            FINANCEIRO. Nosso modo diferenciado permite que nossas soluções
-            tenham muito mais capacidade de recebimento e recuperação de
-            creditos inadimplidos. Isso significa que o seu negócio não estará
-            apoiado em mais um sistema, e sim, em um mix de ferramentas voltadas
-            para a sua empresa, que paga taxas de acordo com sua arrecadação.
-          </p>
+        <b-col cols="12" md="6" lg="5" class="pt-5">
+          <h2>A melhor solução do mercado <mark>Brasileiro</mark></h2>
+          <h4>Bancos: <span class="text-mark">R$ 6,70</span></h4>
+          <h4>Mercado: <span class="text-mark">R$ 3,70</span></h4>
+          <h4>Imobanco *a partir de: <span class="text-mark">R$ 1,50</span></h4>
+          <span class="span-subtitulo ">(Pague por boleto somente quando seu cliente pagar)</span><br>
+          <v-btn class="btn btn-primary btn-sm mt-3">Contratar</v-btn>
         </b-col>
-        <b-col cols="12" md="6" lg="6">
-          <img src="image/boletos/boleto-bancario.png" alt class="img-fluid" />
+        <b-col lg="2"></b-col>
+        <b-col cols="12" md="6" lg="5">
+          <img src="../../static/image/icon/g22048.png" alt class="img-fluid" />
         </b-col>
       </b-row>
     </b-container>
