@@ -11,6 +11,7 @@
     <Parceiro/>
     <CtaLoja/>
     <Noticias/>
+    
   </div>
 </template>
 
