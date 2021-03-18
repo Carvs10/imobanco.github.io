@@ -7,7 +7,7 @@
                 </div>
             </div>
             <div class="row container mt-5">
-                <div class="col-md-6">
+                <b-col cols="6" md="6" lg="6" class="text-left mt-2">
                     <div class="row">
                         <img src="../../static/image/icon/atendimento.png" alt="" class="col-md-2 img-fluid">
                         <div class="col-md-10">
@@ -15,8 +15,8 @@
                             <p>Emita boletos recorrentes e envie por e-mail gratuitamente</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6">
+                </b-col>
+                <b-col cols="6" md="6" lg="6" class="text-left mt-2">
                     <div class="row">
                         <img src="../../static/image/icon/atendimento.png" alt="" class="col-md-2 img-fluid">
                         <div class="col-md-10">
@@ -24,10 +24,11 @@
                             <p>Cuidamos da sua cobrança e recuperação de crédito para você focar em novos negócios..</p>
                         </div>
                     </div>
-                </div>  
+                </b-col>
+                   
             </div>
             <div class="row container">
-                <div class="col-md-6">
+                <b-col cols="6" md="6" lg="6" class="text-left mt-2">
                     <div class="row">
                         <img src="../../static/image/icon/atendimento.png" alt="" class="col-md-2 img-fluid">
                         <div class="col-md-10">
@@ -35,8 +36,8 @@
                             <p>Cadastre-se, crie sua lo j a e começe a vender na internet</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6">
+                </b-col>
+                <b-col cols="6" md="6" lg="6" class="text-left mt-2">
                     <div class="row">
                         <img src="../../static/image/icon/atendimento.png" alt="" class="col-md-2 img-fluid">
                         <div class="col-md-10">
@@ -44,10 +45,10 @@
                             <p>Pague uma pequena tarifa de acordo com o seu movimento com total liberdadee</p>
                         </div>
                     </div>
-                </div>  
+                </b-col> 
             </div>
             <div class="row container">
-                <div class="col-md-6">
+                <b-col cols="6" md="6" lg="6" class="text-left mt-2">
                     <div class="row">
                         <img src="../../static/image/icon/atendimento.png" alt="" class="col-md-2 img-fluid">
                         <div class="col-md-10">
@@ -55,8 +56,8 @@
                             <p>Quem tem o Imobanco como parceiro não se preocupa com datas de pagamento</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6">
+                </b-col>
+                <b-col cols="6" md="6" lg="6" class="text-left mt-2">
                     <div class="row">
                         <img src="../../static/image/icon/atendimento.png" alt="" class="col-md-2 img-fluid">
                         <div class="col-md-10">
@@ -64,7 +65,7 @@
                             <p>Repassamos o valor certo, a pessoa certa de forma automática e com o menor custo.</p>
                         </div>
                     </div>
-                </div>  
+                </b-col> 
             </div>
         </div>
     </section>

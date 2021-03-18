@@ -1,19 +1,14 @@
 <template>
-      <header>
-          <nav class="container navbar navbar-expand-lg  ">
-            <div class="container row pt-3">
-              <div class="col-md-9">
-                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button> 
-                      <div class="collapse navbar-collapse">
-                        <ul class="navbar-nav mr-auto text-right">
-                            <li class="nav-item active">
-                            <a class="navbar-brand" href="#">
-                              <img src="../../static/image/imobanco-azul.png" alt="" class="img-fluid">
-                            </a>
-                            </li>
+<div class="container pt-3">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="../../static/image/icon/imobanco-azul.png" alt="" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
                           <li class="nav-item">
                             <a class="nav-link" href="#noticias">Início</a>
                           </li>
@@ -33,24 +28,20 @@
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="#contato">Contato</a>
-                          </li>       
-                        </ul> 
-                      </div>
-              </div>
-              <div class="col-md-3 col-sm-12 text-center">
-                    <span class="navbar-text">
-                      <button type="button" class="btn btn-primary ">Cadastre-se</button>
-                      </span>
-                      <span class="navbar-text">
-                            <button type="button" class="btn btn-info ">Login</button>
-                    </span> 
-              </div>
-            </div>    
-         </nav> 
-  </header> 
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn btn-primary btn-block my-2 my-sm-0" type="submit">Cadastre-se</button> 
+                          </li>
+                </ul>
+                
+            </div>
+        </nav>
+        </div>
+          
 </template>
 
 <style lang="scss" scoped>
+
     .nav-link{
         text-align: right;
         color:gray;
