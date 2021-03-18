@@ -2,30 +2,34 @@
     <section>
         <b-container>
             <b-row class="container">
-                <b-col class="col-md-4 col-sm-12 pt-5">
+                <b-col cols="12" md="6" lg="4" class="text-left mt-5 pt-4">
                     <h2>Conta Digital</h2>
                     <h3>Feita para o <mark>sucesso</mark> do seu negócio.</h3>
                     <v-btn class="btn btn-primary btn-sm">Cadastre-se</v-btn>
                 </b-col>
-                <b-col class="col-md-2"></b-col>
-                <img class="col-md-6" src="../../static/image/cartoes.png" alt="" srcset="">
+                <b-col lg="2" class=" mt-5">
+                </b-col>                
+                <b-col cols="12" md="6" lg="6" class="text-left mt-2">
+                    <img src="../../static/image/cartoes.png" alt class="img-fluid" />
+                </b-col>
+
             </b-row>
             <div class="row container" style="padding-top:100px">
-                <div class="col-md-6 col-sm-12 mt-5">
+                 <b-col cols="12" md="6" lg="6" class="text-left mt-2">
                     <h2>Foque no que importa;</h2>
                     <p>Fechar novos e bons <br> negócios</p>
-                </div>
-                <div class="col-md-6 col-sm-12">
+                </b-col>
+                <b-col lg="1"></b-col>
+                 <b-col cols="12" md="6" lg="5" class="text-left mt-2">
                 <iframe width="100%" height="270" src="https://www.youtube.com/embed/mRdpOnCGR7E?start=3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-               
+                </b-col> 
             </div>
         </b-container>
     </section>
 </template>
 <style lang="scss" scoped>
     section{
-        padding: 100px 0px;
+        padding: 50px 0px;
 
         mark{
             background-color: #38b4ca;

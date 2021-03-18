@@ -2,20 +2,22 @@
     <section>
         <b-container>
             <div class="row container" style="padding-top:50px">
-                <div class="col-md-6 col-sm-12 mt-5">
+                <b-col cols="12" md="6" lg="6" class="text-left mt-5 pt-5  ">
                     <h2 class="text-azul-escuro">Tecnologia que facilita.</h2>
                     <p class="text-azul-claro">Resultados que transformam.</p>
                     <p class="pt-5 ">Api espetacular para integrar com sua necessidade</p>
-                </div>
-                <img src="../../assets/image/lojas.png" alt="" class="col-md-6 col-sm-12 img-fluid">
+                </b-col>
+                <b-col cols="12" md="6" lg="6" class="text-left mt-2">
+                    <img src="../../assets/image/lojas.png" alt="" class="img-fluid">
+                </b-col>
             </div>
             <b-row class="container">
-                <b-col class="col-md-12 pb-5">
+                <b-col cols="12" md="6" lg="12" class="text-left mt-2">
                     <h3 class="text-azul-escuro">Notícias</h3>
                 </b-col>
             </b-row>
             <b-row class="container">
-                <b-col class="col-md-4 col-sm-12 col-xs-12">
+                 <b-col cols="12" md="6" lg="4" class="text-left mt-2">
                     <div class="row">
                         <div class="col-md-12">
                             <h6 class="text-azul-escuro">Pix digital o novo sucesso</h6>
@@ -28,7 +30,7 @@
                         </div>
                     </div>
                 </b-col>
-                <b-col class="col-md-4 col-sm-12 col-xs-12">
+                <b-col cols="12" md="6" lg="4" class="text-left mt-2">
                     <div class="row">
                         <div class="col-md-12">
                             <h6 class="text-azul-escuro">Pix digital o novo sucesso</h6>
@@ -41,7 +43,7 @@
                         </div>
                     </div>
                 </b-col>
-                <b-col class="col-md-4 col-sm-12 col-xs-12">
+               <b-col cols="12" md="6" lg="4" class="text-left mt-2">
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <h6 class="text-azul-escuro">Pix digital o novo sucesso</h6>

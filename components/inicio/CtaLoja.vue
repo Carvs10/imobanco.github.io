@@ -2,12 +2,14 @@
     <section>
         <div class="container">
             <div class="row container">
-                <div class="col-md-8 col-sm-12">
+                <b-col cols="12" md="6" lg="8" class="text-left mt-2">
                     <h2>Garanta já a sua presença no mundo online <small>Preço: Setup e custo pra treinamento</small></h2>
                     <h2>R$ 0,00 <br><small>* Consulte as taxas transacionais</small></h2>
                     <v-btn class="btn btn-light btn-sm">Contrate já</v-btn>
-                </div>
-                <img src="../../assets/image/lojas.png" alt="" class="col-md-4 col-sm-12 img-fluid">
+                </b-col>
+                <b-col cols="12" md="6" lg="4" class="text-center mt-2">
+                    <img src="../../assets/image/lojas.png" alt="" class="img-fluid">
+                </b-col>
             </div>
         </div>
     </section>

@@ -11,8 +11,6 @@
     <Parceiro/>
     <CtaLoja/>
     <Noticias/>
-    <Footer/>
-    <FooterSocial/>
   </div>
 </template>
 
@@ -28,8 +26,7 @@ import Header from "../components/inicio/Header";
 import Parceiro from "../components/inicio/Parceiro";
 import CtaLoja from "../components/inicio/CtaLoja";
 import Noticias from "../components/inicio/Noticias";
-import Footer from "../components/inicio/Footer";
-import FooterSocial from "../components/inicio/FooterSocial";
+
 export default {
   components: {
     MainSection,
@@ -37,8 +34,6 @@ export default {
     Parceiro,
     CtaLoja,
     Noticias,
-    Footer,
-    FooterSocial
 
     /*NavbarMobile,
     HeaderSlide,
