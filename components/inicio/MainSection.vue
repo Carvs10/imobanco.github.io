@@ -10,7 +10,7 @@
                 <b-col lg="2" class=" mt-5">
                 </b-col>                
                 <b-col cols="12" md="6" lg="6" class="text-left mt-2">
-                    <img src="../../static/image/cartoes.png" alt class="img-fluid" />
+                    <img src="../../static/image/icon/boletos-2.png" alt class="img-fluid" />
                 </b-col>
 
             </b-row>

@@ -2,17 +2,18 @@
     <section>
         <b-container>
             <div class="row container" style="padding-top:50px">
-                <b-col cols="12" md="6" lg="6" class="text-left mt-5 pt-5  ">
+                <b-col cols="12" md="6" lg="6" class="text-left mt-5   ">
                     <h2 class="text-azul-escuro">Tecnologia que facilita.</h2>
                     <p class="text-azul-claro">Resultados que transformam.</p>
-                    <p class="pt-5 ">Api espetacular para integrar com sua necessidade</p>
+                    <p class="pt-2 ">Api espetacular para integrar com sua necessidade</p>
                 </b-col>
-                <b-col cols="12" md="6" lg="6" class="text-left mt-2">
-                    <img src="../../assets/image/lojas.png" alt="" class="img-fluid">
+                <b-col  lg="1"></b-col>
+                <b-col cols="12" md="6" lg="5" class="text-left mt-2">
+                    <img src="../../static/image/icon/boletos-2.png" alt="" class="img-fluid">
                 </b-col>
             </div>
             <b-row class="container">
-                <b-col cols="12" md="6" lg="12" class="text-left mt-2">
+                <b-col cols="12" md="6" lg="12" class="text-left mt-5">
                     <h3 class="text-azul-escuro">Notícias</h3>
                 </b-col>
             </b-row>
