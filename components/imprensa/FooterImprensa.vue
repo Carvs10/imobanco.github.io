@@ -23,7 +23,5 @@
 .text-vertical-line {
   line-height: 50px !important;
 }
-.assessoria {
-  border-top: 1px solid #c2c2c2;
-}
+
 </style>
