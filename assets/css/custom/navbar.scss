@@ -1,37 +1,48 @@
 nav {
-  padding: 1rem;
-  transition: all 0.5s;
-}
-nav.shrink {
   padding: 0.3rem;
-  background: #003e69;
+  transition: all 0.5s;
+  color: #003e69;
+  .logo{
+    background-image: image("static/image/Logo-vetor-retangulo-azul.png");
+    width: 150px;
+    height: 50px;
+    background-color: #851111;
+  }
+  
 }
 nav a {
   margin-right: 1rem;
 }
+nav.shrink {
+  padding: 0.3rem;
+  background: #003e69;
+  color: #ffffff;
+  .logo{
+    background-image: image("static/image/Logo-vetor-retangulo-azul.png");
+    width: 150px;
+    height: 50px;
+    background-color: #ffffff;
+}
+}
+nav.shrink a{
+  padding: 0.3rem;
+  background: #003e69;
+  color: #ffffff;
+}
+
+
 
 @media (max-width: 786px) {
-  nav {
-    padding: 1rem;
-    transition: all 0.5s;
-    background-color: #003e69;
-  }
-  nav.shrink {
-    padding: 0.3rem;
-    background: #003e69;
-  }
-  nav a {
-    margin-right: 1rem;
-  }
+  
 }
 .color-mute {
   background-color: #f5f5f5;
   border-bottom: 2px solid rgb(4, 95, 170);
 }
-.navbarbox {
-  text-decoration: none;
-  padding: 5px 15px 5px 15px;
-}
+// .navbarbox {
+//   text-decoration: none;
+//   padding: 5px 5px 5px 5px;
+// }
 
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0) !important;

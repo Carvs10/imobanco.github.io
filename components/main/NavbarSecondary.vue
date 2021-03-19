@@ -1,78 +1,4 @@
 <template>
-
-    <nav class="container navbar navbar-expand-lg  ">
-            <div class="container row">
-              <div class="col-md-8">
-                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      
-                      <div class="collapse navbar-collapse" id="navbarText">
-                        <ul class="navbar-nav mr-auto text-center">
-                            <li class="nav-item active">
-                            <a class="navbar-brand" href="#">
-                        <img src="../../static/image/icon/imobanco-branco.png" alt="" class="img-fluid">
-                      </a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#noticias">Notícias</a>
-                          </li>
-                          <li class="nav-item ">
-                            <a class="nav-link " href="#eventos">Eventos
-                              <span class="sr-only">(current)</span>
-                            </a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#sobre">Sobre</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#certificados">Certificados</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#parceiros">Parceiros</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#contato">Contato</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link btn btn-primary" href="#">Login</a>
-                          </li>
-                        </ul> 
-                      </div>
-              </div>
-  
-            </div>
-               
-         </nav> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
   <b-navbar
     toggleable="lg"
     type="light"
@@ -151,7 +77,7 @@
       </b-collapse>
         </div>     
     </div>
-  </b-navbar>-->
+  </b-navbar>
 </template>
 <script>
 export default {
