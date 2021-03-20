@@ -3,7 +3,7 @@
     <navbar-secondary />
     <contact-slide />
     <contact-content />
-    <chat-comercial />
+    <!--<chat-comercial />-->
     <!-- <contact-question /> -->
   </div>
 </template>
@@ -12,7 +12,7 @@
 import NavbarSecondary from "@/components/main/NavbarSecondary.vue";
 import ContactSlide from "@/components/contact/ContactSlide.vue";
 import ContactContent from "@/components/contact/ContactContent.vue";
-import ChatComercial from "@/components/index/chatcomercial/ChatComercial.vue";
+//import ChatComercial from "@/components/index/chatcomercial/ChatComercial.vue";
 // import ContactQuestion from "@/components/contact/ContactQuestion.vue";
 
 export default {
@@ -20,7 +20,7 @@ export default {
     NavbarSecondary,
     ContactSlide,
     ContactContent,
-    ChatComercial,
+    //ChatComercial,
     // ContactQuestion,
   },
 };
