@@ -3,10 +3,13 @@ nav {
   transition: all 0.5s;
   color: #003e69;
   .logo{
-    background-image: image("static/image/Logo-vetor-retangulo-azul.png");
+    background-image: url("static/image/imobanco-azul.png");
+    background-size: 150px;
+    background-position-y: center;
+    background-repeat: no-repeat;
     width: 150px;
     height: 50px;
-    background-color: #851111;
+    
   }
   
 }
@@ -18,10 +21,12 @@ nav.shrink {
   background: #003e69;
   color: #ffffff;
   .logo{
-    background-image: image("static/image/Logo-vetor-retangulo-azul.png");
+    background-image: url("static/image/Logo-vetor-retangulo-azul.png");
+    background-size: 150px;
+    background-position-y: center;
+    background-repeat: no-repeat;
     width: 150px;
     height: 50px;
-    background-color: #ffffff;
 }
 }
 nav.shrink a{

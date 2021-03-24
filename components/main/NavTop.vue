@@ -13,7 +13,7 @@
               target="nav-collapse"
               class="bg-white form-radius-total p-1"
             ></b-navbar-toggle>
-        <div class="col-md-12 pt-4 text-right">
+        <div class="col-md-12 pt-4 ">
           <b-collapse id="nav-collapse" is-nav>
             <b-row class="justify-content-right">
               <b-col cols="12" md="6">
