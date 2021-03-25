@@ -8,8 +8,8 @@
                     <p class="pt-2 ">Api espetacular para integrar com sua necessidade</p>
                 </b-col>
                 <b-col  lg="1"></b-col>
-                <b-col cols="12" md="6" lg="5" class="text-left mt-2">
-                    <img src="../../static/image/icon/boletos-2.png" alt="" class="img-fluid">
+                <b-col cols="12" md="6" lg="5" class="text-right mt-2">
+                    <img src="../../static/image/apiindex.png" alt="" class="img-fluid">
                 </b-col>
             </div>
             <b-row class="container">
