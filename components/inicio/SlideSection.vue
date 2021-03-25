@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="contadigital">
         <b-container>
             <b-row class="container">
                 <b-col cols="12" md="6" lg="4" class="text-left mt-5 pt-4">
@@ -9,11 +9,12 @@
                 </b-col>
                 <b-col lg="2" class=" mt-5">
                 </b-col>                
-                <b-col cols="12" md="6" lg="6" class="text-left mt-2">
-                    <img src="../../static/image/icon/boletos-2.png" alt class="img-fluid" />
+                <b-col cols="12" md="6" lg="6" class="text-right mt-3">
+                    <img src="../../static/image/tela-index-slide.png" alt class="img-fluid" />
                 </b-col>
-
             </b-row>
+
+        <!-- Retirar aqui e criar uma section -->
             <div class="row container" style="padding-top:100px">
                  <b-col cols="12" md="6" lg="6" class="text-left mt-2">
                     <h2>Foque no que importa;</h2>
