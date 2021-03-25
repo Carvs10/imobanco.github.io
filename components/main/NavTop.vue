@@ -1,5 +1,63 @@
 <template>
-  <b-navbar
+<b-navbar toggleable="lg"
+    type="light"
+    class="fixed-top container-fluid imobanco"
+    id="nav">
+       
+      <div class="container">
+            <router-link to="/" class="navbar-brand">
+            <div class="logo"></div>
+            </router-link>
+            <b-navbar-toggle
+              target="nav-collapse"
+              class="bg-white form-radius-total p-1"
+            ></b-navbar-toggle>
+     
+
+      <!-- Right aligned nav items -->
+      <b-navbar-nav class="ml-auto">
+      <router-link
+                    to="/"
+                    class="text-titulo-sidebar text-decoration-none navbarbox"
+                    >Home</router-link
+                  >
+
+                  <router-link
+                    to="/Boletos"
+                    class="text-titulo-sidebar text-decoration-none navbarbox"
+                    >Boletos</router-link
+                  >
+                  <router-link
+                    to="/Ecommerce"
+                    class="text-titulo-sidebar text-decoration-none navbarbox"
+                    >Ecommerce</router-link
+                  >
+                  <router-link
+                    to="/cobrancas"
+                    class="text-titulo-sidebar text-decoration-none navbarbox"
+                    >Cobranças</router-link
+                  >
+                  <router-link
+                    to="/imprensa"
+                    class="text-titulo-sidebar text-decoration-none navbarbox"
+                    >Imprensa</router-link
+                  >
+                   <router-link
+                to="/pagador"
+                class="text-titulo-sidebar text-decoration-none navbarbox"
+                >Pagador</router-link
+                  >
+                  <router-link
+                    to="/contato"
+                    class="text-titulo-sidebar text-decoration-none navbarbox"
+                    >Contato</router-link
+                  > 
+                  
+      </b-navbar-nav>
+    </b-collapse>
+    </div>
+  </b-navbar>
+  <!-- <b-navbar
     toggleable="lg"
     type="light"
     class="fixed-top container-fluid imobanco"
@@ -53,7 +111,7 @@
                     to="/contato"
                     class="text-titulo-sidebar text-decoration-none navbarbox"
                     >Contato</router-link
-                  >
+                  > -->
                   <!-- <a
                     href="http://app.imobanco.com.br/login"
                     target="_blank"
@@ -66,13 +124,13 @@
                     >Cadastre-se</router-link
                   > -->
                   
-                </b-navbar-nav>
+                <!-- </b-navbar-nav>
               </b-col>
             </b-row>
       </b-collapse>
         </div>     
     </div>
-  </b-navbar>
+  </b-navbar> -->
 </template>
 <script>
 export default {
