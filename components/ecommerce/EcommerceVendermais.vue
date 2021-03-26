@@ -6,7 +6,7 @@
           <h1 class="text-title text-imobanco title-font pt-4">
             Solução de integração
           </h1>
-          <h3 class="text-content text-success">Ferramentas para sua loja.</h3>
+          <h3 class="text-content text-success title-font">Ferramentas para sua loja.</h3>
           <h1 class="text-title text-blackdark title-font pt-5">
             API E-Commerce Imobanco
           </h1>
@@ -15,8 +15,7 @@
             completa para seu desenvolvedor.
           </p>
         </b-col>
-        <b-col  lg="1" ></b-col>
-        <b-col cols="12" md="6" lg="5">
+        <b-col cols="12" md="6" lg="6">
           <img src="~static/image/api.png" class="img-fluid" />
         </b-col>
       </b-row>

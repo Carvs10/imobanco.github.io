@@ -15,8 +15,7 @@
           <p class="">* Treinamento e suporte</p>
           <p class="">* Personalizada</p>
         </b-col>
-        <b-col  lg="1" ></b-col>
-        <b-col cols="12" md="6" lg="5">
+        <b-col cols="12" md="6" lg="6">
           <img src="~static/image/loja-desktop.png" class="img-fluid" />
         </b-col>
       </b-row>

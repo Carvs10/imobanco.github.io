@@ -7,27 +7,30 @@
     <facilidades-item />
     <chat-comercial />-->
   
-    <SlideSection/>
-    <Parceiro/>
-    <CtaLoja/>
-    <Noticias/>
+    <ContaDigitalSection/>
+    <FoqueSection/>
+    <ParceiroSection/>
+    <TecnologiaSection/>
+    <NoticiasSection/>
     
   </div>
 </template>
 
 <script>
 
-import SlideSection from "../components/inicio/SlideSection";
-import Parceiro from "../components/inicio/Parceiro";
-import CtaLoja from "../components/inicio/CtaLoja";
-import Noticias from "../components/inicio/Noticias";
+import ContaDigitalSection from "../components/inicio/ContaDigitalSection";
+import FoqueSection from "../components/inicio/FoqueSection";
+import ParceiroSection from "../components/inicio/ParceiroSection";
+import TecnologiaSection from "../components/inicio/TecnologiaSection";
+import NoticiasSection from "../components/inicio/NoticiasSection";
 
 export default {
   components: {
-    SlideSection,
-    Parceiro,
-    CtaLoja,
-    Noticias,
+    ContaDigitalSection,
+    FoqueSection,
+    ParceiroSection,
+    TecnologiaSection,
+    NoticiasSection
 
   },
 };
