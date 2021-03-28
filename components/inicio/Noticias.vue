@@ -1,7 +1,7 @@
 <template>
     <section>
         <b-container>
-            <div class="row container" style="padding-top:50px">
+            <b-row style="padding-top:50px">
                 <b-col cols="12" md="6" lg="6" class="text-left mt-5   ">
                     <h2 class="text-azul-escuro">Tecnologia que facilita.</h2>
                     <p class="text-azul-claro">Resultados que transformam.</p>
@@ -11,56 +11,60 @@
                 <b-col cols="12" md="6" lg="5" class="text-right mt-2">
                     <img src="../../static/image/apiindex.png" alt="" class="img-fluid">
                 </b-col>
-            </div>
-            <b-row class="container">
+            </b-row>
+            <b-row >
                 <b-col cols="12" md="6" lg="12" class="text-left mt-5">
                     <h3 class="text-azul-escuro">Notícias</h3>
                 </b-col>
             </b-row>
-            <b-row class="container">
-                 <b-col cols="12" md="6" lg="4" class="text-left mt-2">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h6 class="text-azul-escuro">Pix digital o novo sucesso</h6>
-                            <p class="data-post">Entrevista 11/03/2020</p>
-                        </div>
-                        <img src="../../assets/image/lojas.png" alt="" class="col-md-4 img-fluid">
-                        <div class="col-md-8">
-                            <p class="except-post">o e o assunto abordado na rádio xyz foi a entrevista com Fernando Colares Hoje o assunto abordado na rádio xyz foi a</p>
-                            <p class="link-post">Leia mais</p>
-                        </div>
-                    </div>
-                </b-col>
-                <b-col cols="12" md="6" lg="4" class="text-left mt-2">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h6 class="text-azul-escuro">Pix digital o novo sucesso</h6>
-                            <p class="data-post">Entrevista 11/03/2020</p>
-                        </div>
-                        <img src="../../assets/image/lojas.png" alt="" class="col-md-4 img-fluid">
-                        <div class="col-md-8">
-                            <p class="except-post">o e o assunto abordado na rádio xyz foi a entrevista com Fernando Colares Hoje o assunto abordado na rádio xyz foi a</p>
-                            <p class="link-post">Leia mais</p>
-                        </div>
-                    </div>
-                </b-col>
+            <b-row>
                <b-col cols="12" md="6" lg="4" class="text-left mt-2">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12">
-                            <h6 class="text-azul-escuro">Pix digital o novo sucesso</h6>
-                            <p class="data-post">Entrevista 11/03/2020</p>
-                        </div>
-                        <img src="../../assets/image/lojas.png" alt="" class="col-md-4 col-sm-4 img-fluid">
-                        <div class="col-md-8 col-sm-8">
-                            <p class="except-post">o e o assunto abordado na rádio xyz foi a entrevista com Fernando Colares Hoje o assunto abordado na rádio xyz foi a</p>
-                            <p class="link-post">Leia mais</p>
-                        </div>
-                    </div>
+                    <b-row v-if="post">
+                        <b-col cols="12" md="6" lg="6">
+                            <img :src="post['imagem']" alt="" class="img-fluid">
+                        </b-col>
+                        <b-col cols="12" md="6" lg="6">
+                            <h6 class="text-imobanco text-title">{{ post['titulo'] }}</h6>
+                             <p class="text-content">{{ post['conteudo'] }}</p>
+                        </b-col>
+                    </b-row>
                 </b-col>              
-            </b-row>  
+            </b-row>
         </b-container>
+        
+        <pre id="app" v-html="JSON.stringify(response, null, 2)"></pre>
+        
+        
+        
     </section>
 </template>
+<script>
+export default {
+  name: 'App',
+  data() {
+    return {
+      // Initialize "response"
+      post: null
+    }
+  },
+  methods: {
+    async getContent() {
+      // Query the API and assign the response to "response"
+      const response = await this.$prismic.client.query('')
+      console.log(response)
+      this.post = {
+          "imagem": response['results'][0]['data']['imagem']['url'],
+          "titulo":response['results'][0]['data']['titulo'][0]['text'],
+          "conteudo":response['results'][0]['data']['conteudo'][0]['text'],
+      }
+    }
+  },
+  created() {
+    // Call the API query method
+    this.getContent()
+  }
+}
+</script>
 <style lang="scss" scoped>
     section{
         padding-top: 25px;
