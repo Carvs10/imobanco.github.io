@@ -18,4 +18,4 @@ Vue.use(PrismicVue, {
 // Crie uma instância Vue
 new Vue({
   render: (h) => h(Noticias)
-}).$mount('#app')
+}).$mount('#app');
