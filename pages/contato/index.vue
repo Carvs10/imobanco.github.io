@@ -1,6 +1,5 @@
 <template>
   <div class="container-fluid">
-    <navbar-secondary />
     <contact-slide />
     <contact-content />
     <!--<chat-comercial />-->
@@ -9,7 +8,6 @@
 </template>
 
 <script>
-import NavbarSecondary from "@/components/main/NavbarSecondary.vue";
 import ContactSlide from "@/components/contact/ContactSlide.vue";
 import ContactContent from "@/components/contact/ContactContent.vue";
 //import ChatComercial from "@/components/index/chatcomercial/ChatComercial.vue";
@@ -17,7 +15,6 @@ import ContactContent from "@/components/contact/ContactContent.vue";
 
 export default {
   components: {
-    NavbarSecondary,
     ContactSlide,
     ContactContent,
     //ChatComercial,

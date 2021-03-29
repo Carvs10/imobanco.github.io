@@ -2,7 +2,7 @@
   <section class="pt-3">
     <b-container>
       <b-row class="container mt-4">
-        <b-col cols="12" md="6" lg="5" class="text-left">
+        <b-col cols="12" md="12" lg="5" class="text-left">
           <router-link to="/" class="navbar-brand">
             <img src="~static/image/logoimobanco.png" alt class="img-fluid"/>
           </router-link>
@@ -14,11 +14,11 @@
 
         <!-- Tópicos IMOBANCO -->
         <b-col cols="6" md="4" lg="2" class="text-left mt-5">
-          <h5 class="text-white">Utilidade</h5>
+          <h5 class="text-white text-title">Utilidade</h5>
           <p
             v-for="(topic, index) in topics_utilidade"
             key="index"
-            class="mt-0 mb-0"
+            class="mt-0 mb-0 text-content"
           >
             <a :href="topic.link" class="text-white">{{ topic.title }}</a>
           </p>
@@ -26,8 +26,8 @@
 
         <!-- Tópico SOLUÇÕES -->
         <b-col cols="6" md="4" lg="2" class="text-left mt-5">
-          <h5 class="text-white">Soluções</h5>
-          <p v-for="(topic, index) in topics_solution" class="mt-0 mb-0">
+          <h5 class="text-white text-title">Soluções</h5>
+          <p v-for="(topic, index) in topics_solution" class="mt-0 mb-0 text-content">
             <router-link
               :to="topic.link"
               class="text-white text-decoration-none"
@@ -38,8 +38,8 @@
 
         <!-- Lista de REDES SOCIAIS -->
         <b-col cols="6" md="4" lg="2" class="text-left mt-5">
-          <h5 class="text-white">Ajuda</h5>
-          <p v-for="(topic, index) in topics_ajuda" class="mt-0 mb-0">
+          <h5 class="text-white text-title">Ajuda</h5>
+          <p v-for="(topic, index) in topics_ajuda" class="mt-0 mb-0 text-content">
             <router-link
               :to="topic.link"
               class="text-white text-decoration-none"

@@ -1,46 +1,45 @@
 <template>
-  <section class="pb-5 container">
+  <section class="pb-5">
     <b-container>
       <b-row>
-        <b-col cols="12" md="6" lg="4" class="text-left mt-5">
-          <h2>Multíplas formas de</h2>
-          <span class="subtitulo">Pagamento.</span><br>
-          <span class="span-subtitulo">simplifique suas cobranças recorrentes.</span>
+        <b-col cols="12" md="6" lg="8" class="text-left mt-5">
+          <h2 class="text-imobanco text-title title-font">Multíplas formas de</h2>
+          <span class="text-success title-font">Pagamento.</span>
+          <br />
+          <span class="text-content text-imobanco">simplifique suas cobranças recorrentes.</span>
           <b-row>
-            <b-col cols="12" md="6" lg="12" class="text-left mt-4">
+            <b-col cols="12" md="12" lg="12" class="text-left mt-4 pt-2">
               <b-row>
-                <b-col cols="2" md="6" lg="2" class="text-left">
-                  <img src="../../static/image/icon/g224.png" alt="" class="img-fluid">
+                <b-col cols="12" md="2" lg="1" class="text-left">
+                  <img src="../../static/image/icon/g224.png" alt class="img-fluid" />
                 </b-col>
-                <b-col cols="2" md="6" lg="2" class="text-left">
-                  <img src="../../static/image/icon/g236.png" alt="" class="img-fluid">
+                <b-col cols="12" md="2" lg="1" class="text-left">
+                  <img src="../../static/image/icon/g236.png" alt class="img-fluid" />
                 </b-col>
-                <b-col cols="2" md="6" lg="2" class="text-left">
-                  <img src="../../static/image/icon/g244.png" alt="" class="img-fluid">
+                <b-col cols="12" md="2" lg="1" class="text-left">
+                  <img src="../../static/image/icon/g244.png" alt class="img-fluid" />
                 </b-col>
-                <b-col cols="2" md="6" lg="2" class="text-left">
-                  <img src="../../static/image/icon/g224.png" alt="" class="img-fluid">
+                <b-col cols="12" md="2" lg="1" class="text-left">
+                  <img src="../../static/image/icon/g224.png" alt class="img-fluid" />
                 </b-col>
-                <b-col cols="2" md="6" lg="2" class="text-left">
-                  <img src="../../static/image/icon/g236.png" alt="" class="img-fluid">
+                <b-col cols="12" md="2" lg="1" class="text-left">
+                  <img src="../../static/image/icon/g236.png" alt class="img-fluid" />
                 </b-col>
-                <b-col cols="2" md="6" lg="2" class="text-left">
-                  <img src="../../static/image/icon/g244.png" alt="" class="img-fluid">
+                <b-col cols="12" md="2" lg="1" class="text-left">
+                  <img src="../../static/image/icon/g258.png" alt class="img-fluid" />
                 </b-col>
-                <b-col cols="12" md="6" lg="12" class="text-left mt-2">
-                    <span class="span-subtitulo">
-                      Concentre suas cobranças recorrentes em único carnê. Solução perfeita
-                      para cobrança sem váriações.
-                    </span>
+                <b-col cols="12" md="12" lg="8" class="text-left mt-3">
+                  <span class="text-content text-imobanco">
+                    Concentre suas cobranças recorrentes em único carnê. Solução perfeita
+                    para cobrança sem váriações.
+                  </span>
                 </b-col>
               </b-row>
             </b-col>
           </b-row>
-         
         </b-col>
-        <b-col cols="12" md="6" lg="4" class="text-left mt-5"></b-col>
-        <b-col cols="12" md="6" lg="4" class="text-left mt-5">
-          <img src="../../static/image/icon/g22048.png" alt class="img-fluid" />
+        <b-col cols="12" md="6" lg="4">
+          <img src="../../static/image/icon/g1149.png" alt class="img-fluid" />
         </b-col>
       </b-row>
     </b-container>
@@ -49,7 +48,7 @@
 
 <script>
 export default {
-  name: "MaisBoleto",
+  name: "MaisBoleto"
 };
 </script>
 

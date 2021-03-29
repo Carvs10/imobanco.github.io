@@ -1,15 +1,12 @@
 <template>
-  <section class="pt-5 pb-5">
+  <section class="pt-5">
     <b-container>
       <b-row class="mt-lg-5 mt-md-3">
-        <b-col cols="12" md="12" lg="4" class="text-centet">
+        <b-col cols="12" md="6" lg="6" class="text-centet">
           <h1 class="text-title text-imobanco mt-5 title-font">Imprensa</h1>
-          <p class="text-content">
-            Comunicados, Realease e notícias.
-          </p>
+          <p class="text-content">Comunicados, Realease e notícias.</p>
         </b-col>
-        <b-col  lg="2"></b-col>
-        <b-col cols="12" md="12" lg="6" class="text-centet">
+        <b-col cols="12" md="6" lg="6" class="text-centet">
           <img src="image/boletos/boleto-bancario.png" alt class="img-fluid" />
         </b-col>
       </b-row>
