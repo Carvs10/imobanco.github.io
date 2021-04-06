@@ -45,12 +45,12 @@ export default {
           title: "Linkedin",
           link: "https://br.linkedin.com/company/imobanco",
           icon: "image/social-linkedin.png",
-        }
-        /*{
+        },
+        {
           title: "Instagram",
           link: "https://www.instagram.com/imobanco/",
           icon: "image/social-instagram.png",
-        },
+        }/*
         {
           title: "Telegram",
           link: "https://t.me/imobancobot",
