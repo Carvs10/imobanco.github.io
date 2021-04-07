@@ -33,21 +33,21 @@
                     class="text-titulo-sidebar text-decoration-none navbarbox"
                     >Ecommerce</router-link
                   >
-                  <router-link
+                  <!-- <router-link
                     to="/cobrancas"
                     class="text-titulo-sidebar text-decoration-none navbarbox"
                     >Cobranças</router-link
-                  >
+                  > -->
                   <router-link
                     to="/imprensa"
                     class="text-titulo-sidebar text-decoration-none navbarbox"
                     >Imprensa</router-link
                   >
-                   <router-link
+                   <!-- <router-link
                 to="/pagador"
                 class="text-titulo-sidebar text-decoration-none navbarbox"
                 >Pagador</router-link
-                  >
+                  > -->
                   <router-link
                     to="/contato"
                     class="text-titulo-sidebar text-decoration-none navbarbox"
