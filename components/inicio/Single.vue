@@ -15,7 +15,7 @@
           />
           <br />
           <br />
-          <p class="text-content text-blackdark">{{response['data']['conteudo'][0]['text']}}</p>
+          <p class="text-content text-blackdark">{{content_full}}</p>
         </b-col>
         <!-- <div :v-for="post in response" :key="post" v-if="response">
         <div>
@@ -37,6 +37,7 @@ export default {
   data() {
     return {
       post_id,
+      content_full: "",
       response: null
     };
   },
@@ -48,6 +49,10 @@ export default {
       for (let i = 0; i < this.response.length; i++) {
         if (this.response[i]["id"] == this.post_id) {
           this.response = this.response[i];
+          for (let i = 0; i < this.response["data"]["conteudo"].length; i++) {
+            this.content_full +=
+              this.response["data"]["conteudo"][i]["text"] + "\n";
+          }
         }
       }
     }

@@ -14,8 +14,9 @@
       <p class="text-content except-post">{{ post_content }}</p>
       <form action="/single">
         <input type="text" :value="post_id" hidden="hidden" name="post_id" />
-        <!--<nuxt-link :to="/single/+post_id">Leia mais</nuxt-link>-->
-        <button type="submit" class="text-success link-post">Leia mais</button>
+        <span>
+          <a :href="link+post_id" class="text-success link-post">Leia mais</a>
+        </span>
       </form>
     </b-col>
   </b-row>
