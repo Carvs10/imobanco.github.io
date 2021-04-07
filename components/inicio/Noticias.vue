@@ -1,7 +1,9 @@
 <template>
   <b-row>
     <b-col cols="12" md="12" lg="12" class="mb-3">
-      <span class="text-imobanco text-title">{{ post_title }}</span>
+      <span>
+        <a :href="link+post_id" class="text-imobanco text-title">{{post_title}}</a>
+      </span>
       <br />
       <span class="data-post text-content">Entrevista {{ post_date }}</span>
     </b-col>
@@ -12,8 +14,9 @@
       <p class="text-content except-post">{{ post_content }}</p>
       <form action="/single">
         <input type="text" :value="post_id" hidden="hidden" name="post_id" />
-        <!--<nuxt-link :to="/single/+post_id">Leia mais</nuxt-link>-->
-        <button type="submit" class="text-success link-post">Leia mais</button>
+        <span>
+          <a :href="link+post_id" class="text-success link-post">Leia mais</a>
+        </span>
       </form>
     </b-col>
   </b-row>
@@ -33,7 +36,12 @@
 </template>
 <script>
 export default {
-  props: ["post_id", "post_title", "post_image", "post_date", "post_content"]
+  props: ["post_id", "post_title", "post_image", "post_date", "post_content"],
+  data() {
+    return {
+      link: "/single/?post_id="
+    };
+  }
 };
 </script>
 <style lang="scss" scoped>

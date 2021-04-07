@@ -6,12 +6,12 @@
           <h3 class="text-imobanco text-title title-font">{{titulo}}</h3>
         </b-col>
       </b-row>
-      <b-row >
+      <b-row>
         <b-col
           cols="12"
           md="6"
           lg="4"
-          class="text-left mt-2"  
+          class="text-left mt-2"
           v-for="post in response"
           :key="post"
           :v-if="response"
@@ -20,8 +20,9 @@
             :post_id="response[response.indexOf(post)]['id']"
             :post_title="response[response.indexOf(post)]['data']['titulo'][0]['text']"
             :post_image="response[response.indexOf(post)]['data']['imagem']['url']"
-            :post_date="response[response.indexOf(post)]['first_publication_date']"
-            :post_content="response[response.indexOf(post)]['data']['conteudo'][0]['text']"          />
+            :post_date="response[response.indexOf(post)]['first_publication_date'].split('T')[0].split('-').reverse().join('/')"
+            :post_content="response[response.indexOf(post)]['data']['conteudo'][0]['text']"
+          />
         </b-col>
 
         <!--<Noticias :post="{post}"/>-->
@@ -30,7 +31,7 @@
         <b-col cols="12" md="6" lg="4" class="text-left mt-2">
           <div class="row">
             <div class="col-md-12">
-              <h6 class="text-imobanco text-title">Pix digital o novo sucesso</h6>
+              <h6 class="text-imobanco text-title">Pix digital o novo sucesso</h6>)
               <p class="data-post text-content">Entrevista 11/03/2020</p>
             </div>
             <img src="../../assets/image/lojas.png" alt class="col-md-4 img-fluid" />
