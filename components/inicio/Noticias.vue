@@ -1,7 +1,8 @@
 <template>
   <b-row>
     <b-col cols="12" md="12" lg="12" class="mb-3">
-      <span class="text-imobanco text-title">{{ post_title }}</span><br>
+      <span class="text-imobanco text-title">{{ post_title }}</span>
+      <br />
       <span class="data-post text-content">Entrevista {{ post_date }}</span>
     </b-col>
     <b-col cols="12" md="6" lg="6">
@@ -10,7 +11,8 @@
     <b-col cols="12" md="6" lg="6">
       <p class="text-content except-post">{{ post_content }}</p>
       <form action="/single">
-        <input type="text" :value="post_id" hidden="hidden" name="post_id">
+        <input type="text" :value="post_id" hidden="hidden" name="post_id" />
+        <!--<nuxt-link :to="/single/+post_id">Leia mais</nuxt-link>-->
         <button type="submit" class="text-success link-post">Leia mais</button>
       </form>
     </b-col>
