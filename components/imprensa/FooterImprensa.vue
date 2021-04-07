@@ -3,7 +3,7 @@
     <b-container>
       <b-row>
         <b-col cols="12" md=12 lg="12" class="mt-4">
-          <h3 class="text-title text-imobanco">Assessoria de Imprensa</h3>
+          <h3 class="text-title text-imobanco title-font">Assessoria de Imprensa</h3>
         </b-col>
         <b-col cols="6" md="4" lg="2" class="mt-2">
           <img

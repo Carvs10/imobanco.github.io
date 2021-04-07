@@ -3,6 +3,13 @@ export default {
   /*
    ** Headers of the page
    */
+  routes: [
+    {
+      name: 'single',
+      path: '/single/:id',
+      component: 'components/inicio/Single.vue'
+    }
+  ],
   head: {
     title: "IMOBANCO | Gestão inteligente de Recebimento",
     meta: [
@@ -99,6 +106,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {},
+    extend(config, ctx) { },
   },
 };

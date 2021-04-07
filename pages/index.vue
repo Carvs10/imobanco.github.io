@@ -6,18 +6,15 @@
     <services-section />
     <facilidades-item />
     <chat-comercial />-->
-  
-    <ContaDigitalSection/>
-    <FoqueSection/>
-    <ParceiroSection/>
-    <TecnologiaSection/>
-    <NoticiasSection/>
-    
+    <ContaDigitalSection />
+    <FoqueSection />
+    <ParceiroSection />
+    <TecnologiaSection />
+    <NoticiasSection titulo="Notícias" />
   </div>
 </template>
 
 <script>
-
 import ContaDigitalSection from "../components/inicio/ContaDigitalSection";
 import FoqueSection from "../components/inicio/FoqueSection";
 import ParceiroSection from "../components/inicio/ParceiroSection";
@@ -31,8 +28,7 @@ export default {
     ParceiroSection,
     TecnologiaSection,
     NoticiasSection
-
-  },
+  }
 };
 </script>
 <style></style>

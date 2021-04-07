@@ -1,7 +1,7 @@
 <template>
   <section class="pt-3">
     <b-container>
-      <b-row class="container mt-4">
+      <b-row class="mt-4">
         <b-col cols="12" md="12" lg="5" class="text-left">
           <router-link to="/" class="navbar-brand">
             <img src="~static/image/logoimobanco.png" alt class="img-fluid"/>
