@@ -1,7 +1,9 @@
 <template>
   <b-row>
     <b-col cols="12" md="12" lg="12" class="mb-3">
-      <span class="text-imobanco text-title">{{ post_title }}</span>
+      <span>
+        <a :href="link+post_id" class="text-imobanco text-title">{{post_title}}</a>
+      </span>
       <br />
       <span class="data-post text-content">Entrevista {{ post_date }}</span>
     </b-col>
@@ -33,7 +35,12 @@
 </template>
 <script>
 export default {
-  props: ["post_id", "post_title", "post_image", "post_date", "post_content"]
+  props: ["post_id", "post_title", "post_image", "post_date", "post_content"],
+  data() {
+    return {
+      link: "/single/?post_id="
+    };
+  }
 };
 </script>
 <style lang="scss" scoped>
