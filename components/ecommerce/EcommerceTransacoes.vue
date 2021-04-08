@@ -3,10 +3,10 @@
     <b-container>
       <b-row>
         <b-col cols="12" md="8" lg="6">
-          <h3 class="text-title text-imobanco title-font">
+          <h1 class="text-title text-imobanco">
             Transação bancária para o seu
-            <br />E-commerce
-          </h3>
+            E-commerce
+          </h1>
         </b-col>
       </b-row>
       <b-row>

@@ -1,13 +1,13 @@
 <template>
-  <section class="contadigital mt-3">
+  <section class="bg-primary mt-3">
     <b-container>
       <b-row>
         <b-col cols="12" md="6" lg="6" class="text-left mt-5 pt-4">
-          <h3 class="text-imobanco text-title title-font mt-2">Somos a Conta Digital ideal para o 
+          <h3 class="text-light text-title title-font mt-2">Somos a Conta Digital ideal para o 
             <span class="mark">sucesso</span> do seu
             <br /> negócio.
           </h3>
-          <p class="text-primary">O Imobanco te ajuda a ganhar dinheiro!</p>
+          <p class="text-success">O Imobanco te ajuda a ganhar dinheiro!</p>
           <b-button class="bg-primary text-light">Cadastre-se</b-button>
         </b-col>
         <b-col cols="12" md="6" lg="5" class="text-right mt-3">

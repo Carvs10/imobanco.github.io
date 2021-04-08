@@ -4,9 +4,11 @@
     <ecommerce-recursos />
     <ecommerce-vendermais />
     <ecommerce-loja />
+    <ecommerce-chamada />
     <ecommerce-transacoes/>
     <ecommerce-vantagens />
-    <ecommerce-chamada />
+    
+    
   </div>
 </template>
 

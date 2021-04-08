@@ -3,7 +3,7 @@
     <b-container>
       <b-row>
         <b-col cols="12" md="6" lg="6" class="pt-3">
-          <h1 class="text-title text-imobanco title-font">Loja Digital</h1>
+          <h1 class="text-title text-imobanco ">Loja Digital</h1>
           <h3 class="text-content text-success pb-3">
             Completa e pronta para vender
           </h3>

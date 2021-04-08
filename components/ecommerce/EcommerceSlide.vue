@@ -1,15 +1,15 @@
 <template>
-  <section class="pt-4 pb-4">
+  <section class="pt-4 pb-4 bg-primary">
     <b-container>
       <b-row>
         <b-col cols="12" md="7" lg="7" class="pt-5">
-          <h1 class="mt-5 mb-0 text-title text-imobanco title-font">
+          <h1 class="mt-5 mb-0 text-title text-light title-font">
             Crie sua loja na internet para
             <br />vender ainda mais.
           </h1>
-          <h4 class="text-title text-imobanco pb-0 mb-0 pt-3">Preço: Setup e custo para treinamento</h4>
+          <h4 class="text-title text-light pb-0 mb-0 pt-3">Preço: Setup e custo para treinamento</h4>
           <h1 class="mb-0 text-title text-success title-font">R$ 0,00</h1>
-          <h4 class="text-title text-imobanco">*consulte as taxas transacionais.</h4>
+          <h4 class="text-title text-light">*consulte as taxas transacionais.</h4>
           <a
             href="http://app.imobanco.com.br/register"
             target="_blank"
