@@ -1,15 +1,10 @@
 <template>
   <div>
-    <!--<navbar-mobile />
-    <header-slide />
-    <persona-section />
-    <services-section />
-    <facilidades-item />
-    <chat-comercial />-->
     <ContaDigitalSection />
     <FoqueSection />
     <ParceiroSection />
-    <TecnologiaSection />
+    <ecommerce-chamada />
+    <TecnologiaSection />   
     <NoticiasSection titulo="Notícias" />
   </div>
 </template>
@@ -20,6 +15,7 @@ import FoqueSection from "../components/inicio/FoqueSection";
 import ParceiroSection from "../components/inicio/ParceiroSection";
 import TecnologiaSection from "../components/inicio/TecnologiaSection";
 import NoticiasSection from "../components/inicio/NoticiasSection";
+import EcommerceChamada from "@/components/ecommerce/EcommerceChamada.vue";
 
 export default {
   components: {
@@ -27,7 +23,8 @@ export default {
     FoqueSection,
     ParceiroSection,
     TecnologiaSection,
-    NoticiasSection
+    NoticiasSection,
+    EcommerceChamada,
   }
 };
 </script>
