@@ -3,31 +3,31 @@
     <b-container>
       <b-row>
         <b-col cols="12" md="6" lg="8" class="text-left mt-2">
-          <h3 class="text-imobanco text-title title-font">Parceiro Imobanco tem tudo e muito mais.</h3>
+          <h3 class="text-imobanco text-title title-font">Confira todas as vantagens de ser um parceiro Imobanco:</h3>
         </b-col>
       </b-row>
       <b-row class="mt-5">
         <b-col cols="12" md="6" lg="6" class="text-left mt-2">
           <b-row>
             <b-col cols="4" md="4" lg="3">
-              <img src="../../static/image/icon/atendimento.png" alt class="img-fluid" />
+              <img src="../../static/image/4563boletoparceiro.png" alt class="img-fluid" />
             </b-col>
             <b-col cols="8" md="8" lg="9">
-              <h6 class="text-title">Simples e rápido</h6>
-              <p class="text-content">Emita boletos recorrentes e envie por e-mail gratuitamente</p>
+              <h6 class="text-title">Boletos sem complicações</h6>
+              <p class="text-content">Emita boletos recorrentes e envie-os por e-mail gratuitamente.</p>
             </b-col>
           </b-row>
         </b-col>
         <b-col cols="12" md="6" lg="6" class="text-left mt-2">
           <b-row>
             <b-col cols="4" md="4" lg="3">
-              <img src="../../static/image/icon/atendimento.png" alt class="img-fluid" />
+              <img src="../../static/image/g226foneparceiros.png" alt class="img-fluid" />
             </b-col>
             <b-col cols="8" md="8" lg="9">
-              <h6 class="text-title">Recuperar seu dinheiro é nosso objetivo</h6>
+              <h6 class="text-title">Seu dinheiro bem cuidado</h6>
               <p
                 class="text-content"
-              >Cuidamos da sua cobrança e recuperação de crédito para você focar em novos negócios..</p>
+              >Cuidamos de suas cobranças e recuperação de crédito pra você!</p>
             </b-col>
           </b-row>
         </b-col>
@@ -36,24 +36,24 @@
         <b-col cols="12" md="6" lg="6" class="text-left mt-2">
           <b-row>
             <b-col cols="4" md="4" lg="3">
-              <img src="../../static/image/icon/atendimento.png" alt class="img-fluid" />
+              <img src="../../static/image/g2481shopparceiros.png" alt class="img-fluid" />
             </b-col>
             <b-col cols="8" md="8" lg="9">
-              <h6 class="text-title">Uma loja digital incrível</h6>
-              <p class="text-content">Cadastre-se, crie sua lo j a e começe a vender na internet</p>
+              <h6 class="text-title">Loja Digital personalizada</h6>
+              <p class="text-content">Cadastre-se, crie seu e-commerce e comece a vender na internet.</p>
             </b-col>
           </b-row>
         </b-col>
         <b-col cols="12" md="6" lg="6" class="text-left mt-2">
           <b-row>
             <b-col cols="4" md="4" lg="3">
-              <img src="../../static/image/icon/atendimento.png" alt class="img-fluid" />
+              <img src="../../static/image/g268cadeadoparceiros.png" alt class="img-fluid" />
             </b-col>
             <b-col cols="8" md="8" lg="9">
               <h6 class="text-title">Conta custódia sem burocracia</h6>
               <p
                 class="text-content"
-              >Pague uma pequena tarifa de acordo com o seu movimento com total liberdadee</p>
+              >Pague uma pequena tarifa de acordo com a sua movimentação financeira.</p>
             </b-col>
           </b-row>
         </b-col>
@@ -62,26 +62,26 @@
         <b-col cols="12" md="6" lg="6" class="text-left mt-2">
           <b-row>
             <b-col cols="4" md="4" lg="3">
-              <img src="../../static/image/icon/atendimento.png" alt class="img-fluid" />
+              <img src="../../static/image/g324dinehiroparceiros.png" alt class="img-fluid" />
             </b-col>
             <b-col cols="8" md="8" lg="9">
-              <h6 class="text-title">Antecipamos seus recebíveis</h6>
+              <h6 class="text-title">Antecipação de recebíveis</h6>
               <p
                 class="text-content"
-              >Quem tem o Imobanco como parceiro não se preocupa com datas de pagamento</p>
+              >Quem é parceiro Imobanco não se preocupa com datas de pagamento.</p>
             </b-col>
           </b-row>
         </b-col>
         <b-col cols="12" md="6" lg="6" class="text-left mt-2">
           <b-row>
             <b-col cols="4" md="4" lg="3">
-              <img src="../../static/image/icon/atendimento.png" alt class="img-fluid" />
+              <img src="../../static/image/g316setasoparceiros.png" alt class="img-fluid" />
             </b-col>
             <b-col cols="8" md="8" lg="9">
-              <h6 class="text-title">Repasse a parceiros</h6>
+              <h6 class="text-title">Repasse simples a parceiros</h6>
               <p
                 class="text-content"
-              >Repassamos o valor certo, a pessoa certa de forma automática e com o menor custo.</p>
+              >Fazemos repasses de forma automática, segura e com o menor custo.</p>
             </b-col>
           </b-row>
         </b-col>

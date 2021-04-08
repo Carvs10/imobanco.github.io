@@ -43,16 +43,14 @@
                     class="text-titulo-sidebar text-decoration-none navbarbox"
                     >Imprensa</router-link
                   >
-                   <!-- <router-link
-                to="/pagador"
-                class="text-titulo-sidebar text-decoration-none navbarbox"
-                >Pagador</router-link
-                  > -->
+                   
                   <router-link
                     to="/contato"
                     class="text-titulo-sidebar text-decoration-none navbarbox"
                     >Contato</router-link
                   > 
+                  <a href="https://app.imobanco.com.br/register"><b-button class="bg-primary text-light">Abra sua conta</b-button> </a>
+                  
       </b-navbar-nav>
     </b-collapse>
     </div>

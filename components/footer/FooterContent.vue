@@ -70,7 +70,7 @@ export default {
       ],
       topics_solution: [
         { title: "Boleto", link: "/boletos" },
-        { title: "Cobrança", link: "/cobrancas" },
+        // { title: "Cobrança", link: "/cobrancas" },
         { title: "E-Commerce", link: "/ecommerce" },
       ],
       topics_ajuda: [

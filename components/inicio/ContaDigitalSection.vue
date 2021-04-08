@@ -1,15 +1,14 @@
 <template>
-  <section class="contadigital">
+  <section class="contadigital mt-3">
     <b-container>
       <b-row>
         <b-col cols="12" md="6" lg="6" class="text-left mt-5 pt-4">
-          <h2 class="text-imobanco text-title title-font mt-2">Conta Digital</h2>
-          <h3 class="text-imobanco text-title title-font">
-            Feita para o
-            <mark>sucesso</mark>
-            <br />do seu negócio.
+          <h3 class="text-imobanco text-title title-font mt-2">Somos a Conta Digital ideal para o 
+            <span class="mark">sucesso</span> do seu
+            <br /> negócio.
           </h3>
-          <v-btn class="btn bg-primary btn-sm">Cadastre-se</v-btn>
+          <p class="text-primary">O Imobanco te ajuda a ganhar dinheiro!</p>
+          <b-button class="bg-primary text-light">Cadastre-se</b-button>
         </b-col>
         <b-col cols="12" md="6" lg="5" class="text-right mt-3">
           <img src="../../static/image/tela-index-slide.png" alt class="img-fluid" />
@@ -21,8 +20,9 @@
 <style lang="scss" scoped>
 section {
   padding-top: 50px;
-  mark {
+  .mark {
     background-color: #38b4ca;
+    padding-top: 0px;
     border-radius: 8px;
     color: white;
   }
