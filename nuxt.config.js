@@ -5,9 +5,9 @@ export default {
    */
   routes: [
     {
-      name: 'single',
-      path: '/single/:id',
-      component: 'components/inicio/Single.vue'
+      name: 'release-single',
+      path: '/release-single/:id',
+      component: 'pages/release-single/index.vue'
     }
   ],
   head: {
