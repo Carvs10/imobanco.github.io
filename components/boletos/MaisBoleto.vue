@@ -10,24 +10,15 @@
           <b-row>
             <b-col cols="12" md="12" lg="12" class="text-left mt-4 pt-2">
               <b-row>
-                <b-col cols="12" md="2" lg="1" class="text-left">
-                  <img src="../../static/image/icon/g224.png" alt class="img-fluid" />
+                <b-col cols="12" md="12" lg="6" class="text-left">
+                  <img src="../../static/image/window-restoremultiplas.png" alt class="img-fluid" />
+                  <img src="../../static/image/vectormultiplas-1.png" alt class="img-fluid" />
+                  <img src="../../static/image/calendar-altcalendar.png" alt class="img-fluid" />
+                  <img src="../../static/image/calendar-altcalendar.png" alt class="img-fluid" />
+                  <img src="../../static/image/calendar-altcalendar.png" alt class="img-fluid" />
+                  <img src="../../static/image/vectormultiplas.png" alt class="img-fluid" />
                 </b-col>
-                <b-col cols="12" md="2" lg="1" class="text-left">
-                  <img src="../../static/image/icon/g236.png" alt class="img-fluid" />
-                </b-col>
-                <b-col cols="12" md="2" lg="1" class="text-left">
-                  <img src="../../static/image/icon/g244.png" alt class="img-fluid" />
-                </b-col>
-                <b-col cols="12" md="2" lg="1" class="text-left">
-                  <img src="../../static/image/icon/g224.png" alt class="img-fluid" />
-                </b-col>
-                <b-col cols="12" md="2" lg="1" class="text-left">
-                  <img src="../../static/image/icon/g236.png" alt class="img-fluid" />
-                </b-col>
-                <b-col cols="12" md="2" lg="1" class="text-left">
-                  <img src="../../static/image/icon/g258.png" alt class="img-fluid" />
-                </b-col>
+                
                 <b-col cols="12" md="12" lg="8" class="text-left mt-3">
                   <span class="text-content text-imobanco">
                     Concentre suas cobranças recorrentes em único carnê. Solução perfeita

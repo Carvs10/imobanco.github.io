@@ -4,8 +4,7 @@
       <b-row >
         <b-col cols="12" md="6" lg="7" class="mt-4 pt-4">
           <h2 class="text-light text-title title-font mt-2">
-            A melhor solução do <br> mercado
-            <mark>Brasileiro</mark>
+            Com o <mark>Imobanco</mark> fica mais fácil <br> ganhar dinheiro
           </h2>
           <h4 class="text-light text-title">
             Bancos:
@@ -21,9 +20,9 @@
           </h4>
           <span
             class="text-success text-content"
-          >(Pague por boleto somente quando seu cliente pagar)</span>
+          >*Pague por boleto, somente quando seu cliente pagar. Imobanco  <br> é a melhor solução para o seu bolso!</span>
           <br />
-          <!-- <v-btn class="btn btn-sm mt-3">Contratar</v-btn> -->
+          <b-button class="bg-primary mt-2" >Abra sua conta</b-button>
         </b-col>
   
         <b-col cols="12" md="6" lg="5" class="pt-4 mt-2">
