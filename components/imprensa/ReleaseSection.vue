@@ -4,8 +4,8 @@
       <b-col cols="12" md="12" lg="12" class="text-left">
         <h1 class="text-imobanco text-title mt-3 mb-4 title-font">Release imprensa</h1>
       </b-col>
-      <b-col lg="2"></b-col>
-      <b-col cols="12" md="12" lg="10" class="text-left bg-graylight form-radius pt-5 pb-5 box">
+     
+      <b-col cols="12" md="12" lg="12" class="text-left bg-graylight form-radius pt-5 pb-5 box">
         <div v-for="release in response" :key="release" :v-if="response">
           <Release :release="release" :release_id="release['id']" />
         </div>

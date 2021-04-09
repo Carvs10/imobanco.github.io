@@ -1,6 +1,5 @@
 <template>
   <div class="container-fluid">
-    <!--<navbar-secondary />-->
     <imprensa-slide />
     <ReleaseSection />
     <noticias-section titulo="Noticias"/>
@@ -13,7 +12,7 @@ import ReleaseSection from "@/components/imprensa/ReleaseSection.vue";
 import ImprensaSlide from "@/components/imprensa/ImprensaSlide.vue";
 import NoticiasSection from "@/components/inicio/NoticiasSection.vue";
 import FooterImprensa from "@/components/imprensa/FooterImprensa.vue";
-//import NavbarSecondary from "@/components/main/NavbarSecondary.vue";
+
 
 export default {
   components: {
@@ -21,7 +20,7 @@ export default {
     ImprensaSlide,
     NoticiasSection,
     FooterImprensa
-    //avbarSecondary,
+    
   }
 };
 </script>

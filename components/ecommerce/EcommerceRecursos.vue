@@ -4,8 +4,7 @@
       <b-row>
         <b-col cols="12" md="12" lg="8" class="pt-3 pb-3">
           <h1 class="text-left text-imobanco text-title title-font">
-            O Imobanco facilita tudo para você ter uma loja virtual e sem
-            complicações.
+            O Imobanco facilita tudo para você ter uma loja virtual sem complicações
           </h1>
         </b-col>
       </b-row>

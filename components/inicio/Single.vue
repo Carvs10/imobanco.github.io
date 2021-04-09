@@ -1,39 +1,42 @@
 <template>
   <section>
     <b-container>
-      <b-row>
-        <b-col cols="12" md="6" lg="12" class="text-center" v-if="response">
-          <h1 class="text-imobanco text-title title-font">{{response['data']['titulo'][0]['text']}}</h1>
-          <h6
-            class="text-content text-blackdark"
-          >Data de publicação: {{response['first_publication_date'].split('T')[0].split('-').reverse().join('/')}}</h6>
-          <img
+      <b-row class="justify-content-center">
+        <b-col cols="12" md="12"  lg="12" class="text-center pt-4 pb-4 ">
+          <h3  class="text-primary">Notícias</h3>
+        </b-col>
+        
+        <b-col cols="12" md="12" lg="8" class="text-center mt-4 rounded" v-if="response">        
+ 
+        <img
             :src="response['data']['imagem']['url']"
             alt="imagem principal do post"
-            class="img-fluid"
-            width="400px"
-            height="400px"
+            class="img-fluid rounded"
             srcset
           />
           <br />
-          <br />
-          <div v-for="paragrafo in content_full" :key="paragrafo">
-            <p class="text-content text-blackdark">{{ paragrafo['text']}}</p>
+           <h1 class="text-imobanco text-title title-font text-left  mt-4">
+            {{response['data']['titulo'][0]['text']}} 
+          </h1>
+            <div v-for="paragrafo in content_full" :key="paragrafo" class="text-left  mt-4">
+            <p class="text-content text-blackdark">{{ paragrafo['text']}}</p>         
           </div>
+          <div>
+            <p class="subtitle">Compartilhar: <share-it icons outline round/></p>
+          </div>
+          
         </b-col>
-        <!-- <div :v-for="post in response" :key="post" v-if="response">
-        <div>
-          <!--<div v-if="response[response.indexof(post)]['id'] == post_id">
-              {{response.indexof(post)}}
-              <p>{{response[response.indexof(post)]}}</p>
-          </div>
-        </div>-->
+        <b-col cols="12" md="12"  lg="8">
+          <footer-imprensa />
+        </b-col>
       </b-row>
     </b-container>
   </section>
 </template>
 
 <script>
+import FooterImprensa from "@/components/imprensa/FooterImprensa.vue";
+import ImprensaSlide from "@/components/imprensa/ImprensaSlide.vue";
 if (process.browser) {
   var post_id = location.search.slice(1).split("=")[1];
 }
@@ -44,6 +47,10 @@ export default {
       content_full: null,
       response: null
     };
+  },
+  components: {
+    FooterImprensa,
+    ImprensaSlide, 
   },
   methods: {
     async getContent() {
@@ -69,4 +76,5 @@ section {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+
 </style>

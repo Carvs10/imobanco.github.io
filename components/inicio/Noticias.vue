@@ -1,13 +1,14 @@
 <template>
   <b-row>
     <b-col cols="12" md="12" lg="12" class="mb-3">
+      <img :src="post_image" alt class="img-fluid rounded img-thumbnail" />
       <span>
         <a :href="link+post_id" class="text-imobanco text-title">{{post_title}}</a>
       </span>
       <br />
     </b-col>
-    <b-col cols="12" md="4" lg="4"> <img :src="post_image" alt class="img-fluid rounded img-thumbnail" /> </b-col>
-      <b-col cols="12" md="8" lg="8"> <p class="text-content except-post">{{ post_content }}</p>
+    
+      <b-col cols="12" md="12" lg="12"> <p class="text-content except-post">{{ post_content }}</p>
       <form action="/single">
         <input type="text" :value="post_id" hidden="hidden" name="post_id" />
         <span>

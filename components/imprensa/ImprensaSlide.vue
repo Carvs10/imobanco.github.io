@@ -7,7 +7,7 @@
           <p class="text-content">Comunicados, Realease e notícias.</p>
         </b-col>
         <b-col cols="12" md="6" lg="6" class="text-centet">
-          <img src="image/boletos/boleto-bancario.png" alt class="img-fluid" />
+          <img src="../../static/image/g4570imprensa.png" alt class="img-fluid" />
         </b-col>
       </b-row>
     </b-container>

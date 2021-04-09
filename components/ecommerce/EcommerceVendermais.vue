@@ -2,22 +2,22 @@
   <section class="">
     <b-container class=" pt-5 pb-5 ">
       <b-row>
-        <b-col cols="12" md="8" lg="8">
+        <b-col cols="12" md="4" lg="6">
+          <img src="~static/image/api.png" class="img-fluid"style="height: 300px;" />
+        </b-col>
+        <b-col cols="12" md="8" lg="6">
           <h1 class="text-title text-imobanco pt-4">
             Solução de integração
           </h1>
-          <h5 class="text-content text-success title-font">Ferramentas para sua loja.</h5>
+          <h5 class="text-content text-success title-font">Ideais para a sua loja</h5>
           <h1 class="text-title text-blackdark  pt-5">
             API E-Commerce Imobanco
           </h1>
           <h6 class="text-content">
-            Para facilitar a integração da API, disponibilizamos a biblioteca
-            completa para seu desenvolvedor.
+            Para facilitar a integração da API, disponibilizamos a biblioteca completa para seu desenvolvedor.
           </h6>
         </b-col>
-        <b-col cols="12" md="4" lg="4">
-          <img src="~static/image/api.png" class="img-fluid" />
-        </b-col>
+        
       </b-row>
     </b-container>
   </section>

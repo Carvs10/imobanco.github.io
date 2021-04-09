@@ -1,20 +1,20 @@
 <template>
-  <section class=" bg-primary mt-4 pt-4">
+  <section class=" mt-4 pt-4">
     <b-container >
       <b-row >
         <b-col cols="12" md="6" lg="7" class="mt-4 pt-4">
-          <h2 class="text-light text-title title-font mt-2">
+          <h2 class="text-primary text-title title-font mt-2">
             Com o <mark>Imobanco</mark> fica mais fácil <br> ganhar dinheiro
           </h2>
-          <h4 class="text-light text-title">
+          <h4 class="text-primary text-title">
             Bancos:
             <span class="text-tachado text-success text-title">R$ 6,70</span>
           </h4>
-          <h4 class="text-light text-title">
+          <h4 class="text-primary text-title">
             Mercado:
             <span class="text-tachado text-success text-title">R$ 3,70</span>
           </h4>
-          <h4 class="text-light text-title">
+          <h4 class="text-primary text-title">
             Imobanco *a partir de:
             <span class="text-tachado text-success text-title">R$ 1,50</span>
           </h4>
