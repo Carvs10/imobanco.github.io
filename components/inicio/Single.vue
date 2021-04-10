@@ -3,7 +3,25 @@
     <b-container>
       <b-row class="justify-content-center">
         <b-col cols="12" md="12"  lg="12" class="text-center pt-4 pb-4 ">
-          <h3  class="text-primary">Notícias</h3>
+          <vue-particles
+        color="#dedede"
+        :particleOpacity="0.7"
+        :particlesNumber="80"
+        shapeType="circle"
+        :particleSize="4"
+        linesColor="#002c5f"
+        :linesWidth="1"
+        :lineLinked="true"
+        :lineOpacity="0.4"
+        :linesDistance="150"
+        :moveSpeed="3"
+        :hoverEffect="true"
+        hoverMode="grab"
+        :clickEffect="true"
+        clickMode="push"
+      > 
+      <h3  class="text-primary">Notícias</h3> </vue-particles>
+          
         </b-col>
         
         <b-col cols="12" md="12" lg="8" class="text-center mt-4 rounded" v-if="response">        
