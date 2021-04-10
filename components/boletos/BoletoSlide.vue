@@ -22,7 +22,7 @@
             class="text-success text-content"
           >*Pague por boleto, somente quando seu cliente pagar. Imobanco  <br> é a melhor solução para o seu bolso!</span>
           <br />
-          <b-button class="bg-primary mt-2" >Abra sua conta</b-button>
+          <a href="https://app.imobanco.com.br/register" target="_blank"><b-button class="bg-primary text-light">Abra sua conta</b-button> </a>
         </b-col>
   
         <b-col cols="12" md="6" lg="5" class="pt-4 mt-2">

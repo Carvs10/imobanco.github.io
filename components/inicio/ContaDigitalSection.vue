@@ -8,7 +8,7 @@
             negócio.
           </h3>
           <p class="text-success">O Imobanco te ajuda a ganhar dinheiro!</p>
-          <b-button class="bg-primary text-light">Cadastre-se</b-button>
+          <a href="https://app.imobanco.com.br/register" target="_blank"><b-button class="bg-primary text-light">Abra sua conta</b-button> </a>
         </b-col>
         <b-col cols="12" md="6" lg="5" class="text-right mt-3">
           <img src="../../static/image/tela-index-slide.png" alt class="img-fluid" />

@@ -11,12 +11,7 @@
           </h5>
           <h1 class="mb-0 text-title text-blackdark title-font">R$ 0,00</h1>
           
-          <a
-            href="http://app.imobanco.com.br/register"
-            target="_blank"
-            class="btn bg-primary mt-3 text-white"
-            >Seja Imobanco!</a
-          >
+          <a href="https://app.imobanco.com.br/register" target="_blank"><b-button class="bg-primary text-light">Abra sua conta</b-button> </a>
         </b-col>
         <b-col cols="12" md="5" lg="4" class="pt-5">
           <img src="image/online-1.png" alt class="img-fluid" />

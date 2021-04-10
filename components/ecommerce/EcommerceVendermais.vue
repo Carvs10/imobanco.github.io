@@ -6,11 +6,11 @@
           <img src="~static/image/api.png" class="img-fluid"style="height: 300px;" />
         </b-col>
         <b-col cols="12" md="8" lg="6">
-          <h1 class="text-title text-imobanco pt-4">
+          <h1 class="text-title text-imobanco title-font pt-4">
             Solução de integração
           </h1>
           <h5 class="text-content text-success title-font">Ideais para a sua loja</h5>
-          <h1 class="text-title text-blackdark  pt-5">
+          <h1 class="text-title text-blackdark title-font pt-5">
             API E-Commerce Imobanco
           </h1>
           <h6 class="text-content">

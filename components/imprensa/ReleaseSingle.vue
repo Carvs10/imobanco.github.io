@@ -1,8 +1,9 @@
 <template>
-  <section>
+  <section >
+    <imprensa-slide />
     <b-container>
-      <b-row>
-        <b-col cols="12" md="6" lg="12" class="text-center" v-if="response">
+      <b-row class="justify-content-center">
+        <b-col cols="12" md="6" lg="8" class="text-left mt-4" v-if="response">
           <h1 class="text-imobanco text-title title-font">{{response['data']['titulo'][0]['text']}}</h1>
           <h6
             class="text-content text-blackdark"
@@ -10,19 +11,28 @@
           <br />
           <br />
           <div v-for="paragrafo in content_full" :key="paragrafo" :v-if="content_full">
-            <p class="text-content text-blackdark">{{ paragrafo['text']}}</p>
+            <p class="text-content text-blackdark text-left">{{ paragrafo['text']}}</p>
           </div>
+          <footer-imprensa />
         </b-col>
       </b-row>
     </b-container>
+    
   </section>
 </template>
 
 <script>
+import ImprensaSlide from "@/components/imprensa/ImprensaSlide.vue";
+import FooterImprensa from "@/components/imprensa/FooterImprensa.vue";
+
 if (process.browser) {
   var release_id = location.search.slice(1).split("=")[1];
 }
 export default {
+  components: {
+    ImprensaSlide,
+    FooterImprensa
+  },
   data() {
     return {
       //release_id,

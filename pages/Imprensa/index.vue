@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <imprensa-slide />
     <ReleaseSection />
-    <noticias-section titulo="Noticias"/>
+    <noticias-section titulo="Notícias"/>
     <footer-imprensa />
   </div>
 </template>
