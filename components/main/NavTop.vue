@@ -6,11 +6,11 @@
     id="nav">
        
       <div class="container">
-    <b-navbar-brand href="#"> 
+    
       <router-link to="/" class="navbar-brand">
             <div class="logo"></div>
       </router-link>
-    </b-navbar-brand>
+   
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
