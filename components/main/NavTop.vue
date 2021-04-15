@@ -49,7 +49,8 @@
                     class="text-titulo-sidebar text-decoration-none navbarbox"
                     >Contato</router-link
                   > 
-                  <a href="https://app.imobanco.com.br/register"><b-button class="bg-primary text-light">Abra sua conta</b-button> </a>
+                  <a href="https://app.imobanco.com.br/login"><b-button class="btn-success text-light">Login</b-button> </a>
+                  <a href="https://app.imobanco.com.br/register"><b-button class="btn-primary text-light">Abra sua conta</b-button> </a>
                   
       </b-navbar-nav>
     </b-collapse>
