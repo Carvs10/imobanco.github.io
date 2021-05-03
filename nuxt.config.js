@@ -53,8 +53,7 @@ export default {
    ** Global CSS
    */
   css: [
-    "@/assets/css/main.css",
-    "@/assets/css/custom.scss",
+    "@/assets/scss/custom.scss",
     // '@/assets/css/animate.css'
   ],
 
@@ -99,6 +98,7 @@ export default {
     "@nuxtjs/svg",
     "@neneos/nuxt-animate.css",
   ],
+  
   /*
    ** Build configuration
    */

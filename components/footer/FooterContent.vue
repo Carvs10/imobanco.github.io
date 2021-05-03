@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-3">
+  <section class="pt-3 bg-primary">
     <b-container>
       <b-row class="mt-4">
         <b-col cols="12" md="12" lg="5" class="text-left">
@@ -83,9 +83,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-  section{
-    background-color: #2e2c2c;
-  }
-</style>

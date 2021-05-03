@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="nav-imobanco">
   <b-navbar toggleable="lg"
     type="light"
     class="fixed-top container-fluid imobanco"
@@ -15,42 +15,60 @@
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
-       <!-- Right aligned nav items -->
+      
       <b-navbar-nav class="ml-auto">
+        <b-nav-item>
         <router-link
                     to="/"
-                    class="text-titulo-sidebar text-decoration-none navbarbox"
+                    class=""
                     >Home</router-link
                   >
-
+        </b-nav-item>
+        <b-nav-item>
                   <router-link
                     to="/Boletos"
-                    class="text-titulo-sidebar text-decoration-none navbarbox"
+                    class=""
                     >Boletos</router-link
                   >
+            </b-nav-item>
+            <b-nav-item>
                   <router-link
                     to="/Ecommerce"
-                    class="text-titulo-sidebar text-decoration-none navbarbox"
+                    class=""
                     >Ecommerce</router-link
                   >
-                  <!-- <router-link
-                    to="/cobrancas"
-                    class="text-titulo-sidebar text-decoration-none navbarbox"
-                    >Cobranças</router-link
-                  > -->
+             </b-nav-item>
+        <b-nav-item>    
                   <router-link
                     to="/imprensa"
-                    class="text-titulo-sidebar text-decoration-none navbarbox"
-                    >Imprensa</router-link
+                    class=""
+                    >Contas</router-link
                   >
-                   
+                  </b-nav-item>
+        <b-nav-item>
+                  <router-link
+                    to="/imprensa"
+                    class=""
+                    >Combo</router-link
+                  >
+                  </b-nav-item>
+        <b-nav-item>
+                  <router-link
+                    to="/imprensa"
+                    class=""
+                    >Blog</router-link
+                  >
+                   </b-nav-item>
+        <b-nav-item>
                   <router-link
                     to="/contato"
-                    class="text-titulo-sidebar text-decoration-none navbarbox"
+                    class=""
                     >Contato</router-link
                   > 
-                  <a href="https://app.imobanco.com.br/login"><b-button class="btn-success text-light">Login</b-button> </a>
-                  <a href="https://app.imobanco.com.br/register"><b-button class="btn-primary text-light">Abra sua conta</b-button> </a>
+                  </b-nav-item>
+        
+                  <a href="https://app.imobanco.com.br/login" class="btn btn-success">Login</a>
+                  <a href="https://app.imobanco.com.br/register" class="btn">Abra sua conta</a>
                   
       </b-navbar-nav>
     </b-collapse>
@@ -61,23 +79,23 @@
 </template>
 <script>
 export default {
-  mounted() {
-    this.$nextTick(function() {
-      window.addEventListener("scroll", function() {
-        var navbar = document.getElementById("nav");
-        var nav_classes = navbar.classList;
-        if (document.documentElement.scrollTop >= 50) {
-          if (nav_classes.contains("shrink") === false) {
-            nav_classes.toggle("shrink");
-          }
-        } else {
-          if (nav_classes.contains("shrink") === true) {
-            nav_classes.toggle("shrink");
-          }
-        };
-      });    
-    });
-  },
+  // mounted() {
+  //   this.$nextTick(function() {
+  //     window.addEventListener("scroll", function() {
+  //       var navbar = document.getElementById("nav");
+  //       var nav_classes = navbar.classList;
+  //       if (document.documentElement.scrollTop >= 50) {
+  //         if (nav_classes.contains("shrink") === false) {
+  //           nav_classes.toggle("shrink");
+  //         }
+  //       } else {
+  //         if (nav_classes.contains("shrink") === true) {
+  //           nav_classes.toggle("shrink");
+  //         }
+  //       };
+  //     });    
+  //   });
+  // },
 };
 </script>
 <style></style>
