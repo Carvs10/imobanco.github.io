@@ -32,8 +32,8 @@ p {
 }
 .title-font {
   font-size: 30px;
-  align-items: center;
-  justify-content: center;
+  color: $primary;
+  font-weight: 800;
 }
 // Text style Template
 
@@ -42,7 +42,9 @@ p {
 }
 
 .text-subtitle {
-  font-weight: 600;
+  font-size: 20px;
+  color: $success;
+  font-weight: 400;
 }
 
 .text-content {

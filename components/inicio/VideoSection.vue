@@ -13,10 +13,9 @@
           ></iframe>
         </b-col>
         <b-col cols="12" md="6" lg="6" class="text-left mt-2">
-          <h2 class="text-imobanco text-title title-font">Gestão Financeira facilitada, para você focar no que realmente importa:</h2>
-          <p class="text-success text-content title-font">
-            Fechar novos e bons
-            <br />negócios
+          <h2 class="title-font">Gestão Financeira facilitada, para você focar no que realmente importa:</h2>
+          <p class="text-subtitle">
+            Fechar novos e bons negócios
           </p>
         </b-col>
         

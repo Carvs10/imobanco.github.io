@@ -1,9 +1,9 @@
 <template>
   <div>
     <ContaDigitalSection />
-    <FoqueSection />
+    <VideoSection />
     <ParceiroSection />
-    <ecommerce-chamada />
+    <EcommerceChamada />
     <TecnologiaSection />   
     <NoticiasSection titulo="Notícias" />
   </div>
@@ -11,7 +11,7 @@
 
 <script>
 import ContaDigitalSection from "../components/inicio/ContaDigitalSection";
-import FoqueSection from "../components/inicio/FoqueSection";
+import VideoSection from "../components/inicio/VideoSection";
 import ParceiroSection from "../components/inicio/ParceiroSection";
 import TecnologiaSection from "../components/inicio/TecnologiaSection";
 import NoticiasSection from "../components/inicio/NoticiasSection";
@@ -20,7 +20,7 @@ import EcommerceChamada from "@/components/ecommerce/EcommerceChamada.vue";
 export default {
   components: {
     ContaDigitalSection,
-    FoqueSection,
+    VideoSection,
     ParceiroSection,
     TecnologiaSection,
     NoticiasSection,

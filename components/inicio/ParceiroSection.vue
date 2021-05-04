@@ -3,7 +3,7 @@
     <b-container>
       <b-row>
         <b-col cols="12" md="6" lg="8" class="text-left mt-2">
-          <h3 class="text-imobanco text-title title-font">Confira todas as vantagens de ser um parceiro Imobanco:</h3>
+          <h3 class="title-font">Confira todas as vantagens de ser um parceiro Imobanco:</h3>
         </b-col>
       </b-row>
       <b-row class="mt-5">
