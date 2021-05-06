@@ -72,12 +72,14 @@ export default {
 
   plugins: [
     {
+      src: "~plugins/bootstrap-vue",
+    },
+    {
       src: "~/plugins/js/main.js",
     },
     {
       src: "~/plugins/js/axios.js",
     },
-
     {
       src: "~/plugins/vue-notification.js",
       ssr: false,
@@ -108,4 +110,5 @@ export default {
      */
     extend(config, ctx) { },
   },
+  
 };
