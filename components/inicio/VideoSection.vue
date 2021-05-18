@@ -1,7 +1,7 @@
 <template>
-  <section class="contadigital">
-    <b-container>
-      <b-row style="padding-top:100px">
+  <section class="contadigital pt-4 pb-4">
+    <b-container class="videobase">
+      <b-row class="">
         <b-col cols="12" md="6" lg="6" class="text-left mt-2">
           <iframe
             width="100%"
@@ -13,7 +13,7 @@
           ></iframe>
         </b-col>
         <b-col cols="12" md="6" lg="6" class="text-left mt-2">
-          <h2 class="title-font">Gestão Financeira facilitada, para você focar no que realmente importa:</h2>
+          <h2 class="title-font text-light">Gestão Financeira facilitada, para você focar no que realmente importa:</h2>
           <p class="text-subtitle">
             Fechar novos e bons negócios
           </p>

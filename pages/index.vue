@@ -4,7 +4,7 @@
     <VideoSection />
     <ParceiroSection />
     <EcommerceChamada />
-    <TecnologiaSection />   
+    <!-- <TecnologiaSection />    -->
     <NoticiasSection titulo="Notícias" />
   </div>
 </template>
