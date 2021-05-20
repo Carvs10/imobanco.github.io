@@ -12,7 +12,11 @@ text-decoration: none;
 list-style: none;
 box-sizing: border-box;   
 }
-
+.slideposition{
+  display: block;
+  vertical-align: middle;
+ 
+}
 .lineimobanco {
   width: 40% auto;
   border: 1px solid #00c1de;
@@ -206,6 +210,10 @@ $bg-color-warning: #ffb300;
 $bg-color-light: #eeeeee;
 $bg-color-dark: #000a12;
 
+.bg-gradient-ecommerce{
+  background: rgb(0,44,95);
+  background: linear-gradient(70deg, rgba(0,44,95,1) 0%, rgba(0,193,222,1) 100%); 
+}
 .btn-success{
   padding: 5px 10px;
   border: 1px solid $success !important;

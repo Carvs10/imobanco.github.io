@@ -1,12 +1,9 @@
 <template>
-  <div class="container-fluid">
-    <div>
-     
-      <boleto-slide />
-      <vantagens-boleto />
-      <mais-boleto />
+     <div>
+      <BoletoSlide />
+      <VantagensBoleto />
+      <MaisBoleto />
     </div>
-  </div>
 </template>
 
 <script>

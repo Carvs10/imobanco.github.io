@@ -1,11 +1,11 @@
 <template>
-  <section class="pt-5 pb-5">
+  <section class="pt-5 pb-5 bg-light">
     <b-container>
       <b-row>
-        <b-col cols="12" md="12" lg="8" class="pt-3 pb-3">
-          <h1 class="text-left text-imobanco text-title title-font">
+        <b-col cols="12" md="12" lg="12" class="pt-3 pb-3">
+          <h2 class="text-title text-primary">
             O Imobanco facilita tudo para você ter uma loja virtual sem complicações
-          </h1>
+          </h2>
         </b-col>
       </b-row>
       <b-row>

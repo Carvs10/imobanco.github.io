@@ -6,16 +6,16 @@
           <img src="~static/image/api.png" class="img-fluid"style="height: 300px;" />
         </b-col>
         <b-col cols="12" md="8" lg="6">
-          <h1 class="text-title text-imobanco title-font pt-4">
+          <h2 class="text-title text-primary pt-4">
             Solução de integração
-          </h1>
-          <h5 class="text-content text-success title-font">Ideais para a sua loja</h5>
-          <h1 class="text-title text-blackdark title-font pt-5">
+          </h2>
+          <p class="text-subtitle text-success">Ideais para a sua loja</p>
+          <p class="text-title">
             API E-Commerce Imobanco
-          </h1>
-          <h6 class="text-content">
+          </p>
+          <p class="text-content">
             Para facilitar a integração da API, disponibilizamos a biblioteca completa para seu desenvolvedor.
-          </h6>
+          </p>
         </b-col>
         
       </b-row>

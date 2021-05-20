@@ -3,10 +3,8 @@
     <b-container>
       <b-row>
         <b-col cols="12" md="6" lg="8" class="text-left mt-5">
-          <h2 class="text-imobanco text-title title-font">Multíplas formas de</h2>
-          <span class="text-success title-font">Pagamento.</span>
-          <br />
-          <span class="text-content text-imobanco">simplifique suas cobranças recorrentes.</span>
+          <h2 class="text-imobanco text-title">Multíplas formas de pagamento.</h2>
+          <p class="text-subtitle">simplifique suas cobranças recorrentes.</p>
           <b-row>
             <b-col cols="12" md="12" lg="12" class="text-left mt-4 pt-2">
               <b-row>
@@ -29,7 +27,7 @@
             </b-col>
           </b-row>
         </b-col>
-        <b-col cols="12" md="6" lg="4">
+        <b-col cols="12" md="6" lg="4" class="mt-5">
           <img src="../../static/image/icon/g1149.png" alt class="img-fluid" />
         </b-col>
       </b-row>
