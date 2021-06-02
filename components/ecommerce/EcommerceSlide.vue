@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-4 pb-4 ">
+  <section class="slide-top">
     <b-container>
       <b-row>
         <b-col cols="12" md="7" lg="7" class="pt-5">

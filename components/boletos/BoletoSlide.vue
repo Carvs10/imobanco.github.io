@@ -1,11 +1,11 @@
 <template>
-  <section class=" mt-4 pt-4">
+  <section class="slide-top">
     <b-container >
       <b-row >
         <b-col cols="12" md="6" lg="7" class="mt-5 pt-4">
-          <h2 class="text-primary text-title title-font mt-2">
+          <h1 class="text-primary text-title title-font mt-2">
             Com o <mark>Imobanco</mark> fica mais fácil <br> ganhar dinheiro
-          </h2>
+          </h1>
           <!-- <h5 class="text-primary text-title">
             Bancos:
             <span class="text-tachado text-success text-title">R$ 6,70</span>

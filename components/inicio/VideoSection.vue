@@ -13,7 +13,7 @@
           ></iframe>
         </b-col>
         <b-col cols="12" md="6" lg="6" class="text-left mt-2">
-          <h2 class="title-font text-light">Gestão Financeira facilitada, para você focar no que realmente importa:</h2>
+          <h2 class="title-font text-primary">Gestão Financeira facilitada, para você focar no que realmente importa:</h2>
           <p class="text-subtitle">
             Fechar novos e bons negócios
           </p>

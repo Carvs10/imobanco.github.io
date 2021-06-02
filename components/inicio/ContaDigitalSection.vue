@@ -1,30 +1,18 @@
 <template>
-  <section class="mt-3">     
-    <b-container>
+  <section class="slide-top">
+     
+    <b-container >
       <b-row>
-        <b-col cols="12" md="6" lg="6" class="text-left mt-5 pt-4">
-          <h3 class="title-font mt-2">Somos a Conta Digital ideal para o 
-            <span class="mark">sucesso</span> do seu
-            negócio.
-          </h3>
-          <p class="text-subtitle ">O Imobanco te ajuda a ganhar dinheiro!</p>
-          <a href="https://app.imobanco.com.br/register" target="_blank" class="btn btn-primary">Abra sua conta</a>
+        <b-col cols="12" md="6" lg="6" class="text-left pt-5">
+          <h1 class="text-slide">Recebimentos e cobranças em um único lugar.
+          </h1>
+          <p class="text-subtitle ">Simplifique com o Imobanco.</p>
+          <a href="https://app.imobanco.com.br/register" target="_blank" class="btn btn-success">Abra sua conta</a>
         </b-col>
-        <b-col cols="12" md="6" lg="5" class="text-right mt-3">
-          <img src="../../static/image/tela-index-slide.png" alt class="img-fluid" />
+        <b-col cols="12" md="6" lg="5" class="text-right">
+          <img src="../../static/image/slider-01.png" alt="" class="img-fluid" />
         </b-col>
       </b-row>
     </b-container>
   </section>
 </template>
-<style lang="scss" scoped>
-section {
-  padding-top: 50px;
-  .mark {
-    background-color: #38b4ca;
-    padding-top: 0px;
-    border-radius: 8px;
-    color: white;
-  }
-}
-</style>
