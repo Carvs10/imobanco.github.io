@@ -1,6 +1,5 @@
 <template>
   <section class="slide-top">
-     
     <b-container >
       <b-row>
         <b-col cols="12" md="6" lg="6" class="text-left pt-5">
