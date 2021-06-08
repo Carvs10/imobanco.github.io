@@ -45,13 +45,13 @@
                     >Contas</router-link
                   >
                   </b-nav-item>
-        <b-nav-item>
+        <!-- <b-nav-item>
                   <router-link
                     to="/imprensa"
                     class=""
                     >Combo</router-link
                   >
-                  </b-nav-item>
+                  </b-nav-item> -->
         <b-nav-item>
                   <router-link
                     to="/imprensa"
@@ -79,23 +79,23 @@
 </template>
 <script>
 export default {
-  // mounted() {
-  //   this.$nextTick(function() {
-  //     window.addEventListener("scroll", function() {
-  //       var navbar = document.getElementById("nav");
-  //       var nav_classes = navbar.classList;
-  //       if (document.documentElement.scrollTop >= 50) {
-  //         if (nav_classes.contains("shrink") === false) {
-  //           nav_classes.toggle("shrink");
-  //         }
-  //       } else {
-  //         if (nav_classes.contains("shrink") === true) {
-  //           nav_classes.toggle("shrink");
-  //         }
-  //       };
-  //     });    
-  //   });
-  // },
+  mounted() {
+    this.$nextTick(function() {
+      window.addEventListener("scroll", function() {
+        var navbar = document.getElementById("nav");
+        var nav_classes = navbar.classList;
+        if (document.documentElement.scrollTop >= 50) {
+          if (nav_classes.contains("shrink") === false) {
+            nav_classes.toggle("shrink");
+          }
+        } else {
+          if (nav_classes.contains("shrink") === true) {
+            nav_classes.toggle("shrink");
+          }
+        };
+      });    
+    });
+  },
 };
 </script>
 <style></style>
