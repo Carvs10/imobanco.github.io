@@ -1,7 +1,7 @@
 nav {
   padding: 0.3rem;
   transition: all 0.5s;
-  color: $primary;
+  color: $light;
   
   // border-bottom: 1px solid $primary;
   .logo{
@@ -20,20 +20,19 @@ nav a {
   padding: 0.3rem;
   text-align: left;
   text-decoration: none !important;
-  color: $primary;
+  color: $light;
 
 }
 nav.shrink {
   padding: 0.3rem;
   background: $light;
 }
-
-
-
-
-@media (max-width: 786px) {
-  
+nav.shrink a{
+  color: $primary;
 }
+
+
+
 .color-mute {
   background-color: #f5f5f5;
   border-bottom: 2px solid rgb(4, 95, 170);

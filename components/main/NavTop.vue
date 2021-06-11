@@ -67,8 +67,8 @@
                   > 
                   </b-nav-item>
         
-                  <a href="https://app.imobanco.com.br/login" class="btn btn-success">Login</a>
-                  <a href="https://app.imobanco.com.br/register" class="btn">Abra sua conta</a>
+                  <a href="https://app.imobanco.com.br/login" class="btn btn-success text-light">Login</a>
+                  <a href="https://app.imobanco.com.br/register" class="btn text-light">Abra sua conta</a>
                   
       </b-navbar-nav>
     </b-collapse>

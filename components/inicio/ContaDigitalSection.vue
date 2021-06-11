@@ -1,8 +1,7 @@
 <template>
-  <section class="slide-top">
-    <b-container fluid >
+  <section class="slide-home">
+    <b-container>
       <b-row>
-        <img src="../../static/image/banner-corretor.jpg" alt="" class="img-fluid" />
         <!-- <b-col cols="12" md="6" lg="6" class="text-left pt-5">
           <h1 class="text-slide">Recebimentos e cobranças em um único lugar.
           </h1>

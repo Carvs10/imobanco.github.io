@@ -1,8 +1,9 @@
 <template>
   <section class="slide-top">
-    <b-container>
+    <b-container fluid>
       <b-row>
-        <b-col cols="12" md="7" lg="7" class="pt-5">
+        <img src="image/banner-ecommerce.jpg" alt class="img-fluid" />
+        <!-- <b-col cols="12" md="7" lg="7" class="pt-5">
           <h1 class="mt-5 mb-0 text-title text-primary title-font">
             Crie sua própria loja e venda muito mais!
           </h1>
@@ -13,7 +14,7 @@
         </b-col>
         <b-col cols="12" md="5" lg="5" class="pt-5">
           <img src="image/ecommerce-top.png" alt class="img-fluid" />
-        </b-col>
+        </b-col> -->
       </b-row>
     </b-container>
   </section>
