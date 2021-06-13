@@ -1,5 +1,5 @@
 <template>
-  <section class="contadigital pt-4 pb-4">
+  <section class="contadigital pt-2 pb-2">
     <b-container class="videobase">
       <b-row class="">
         <b-col cols="12" md="6" lg="6" class="text-left mt-2">

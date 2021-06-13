@@ -5,7 +5,7 @@ nav {
   
   // border-bottom: 1px solid $primary;
   .logo{
-    background-image: url("static/image/imobanco-azul.png");
+    background-image: url("static/image/imobanco-branco.png");
     background-size: 200px;
     background-position-y: center;
     background-repeat: no-repeat;
@@ -23,9 +23,25 @@ nav a {
   color: $light;
 
 }
+nav a:hover {
+  // margin-rigtop: 70;ht: 1rem;
+  text-decoration: none !important;
+  color: $success;
+
+}
 nav.shrink {
   padding: 0.3rem;
   background: $light;
+
+  .logo{
+    background-image: url("static/image/imobanco-azul.png");
+    background-size: 200px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 50px;
+    
+  }
 }
 nav.shrink a{
   color: $primary;

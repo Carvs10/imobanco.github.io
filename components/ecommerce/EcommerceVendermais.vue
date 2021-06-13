@@ -1,19 +1,19 @@
 <template>
-  <section class="">
+  <section class="bg-secondary">
     <b-container class=" pt-5 pb-5 ">
       <b-row>
         <b-col cols="12" md="4" lg="6">
           <img src="~static/image/api.png" class="img-fluid"style="height: 300px;" />
         </b-col>
         <b-col cols="12" md="8" lg="6">
-          <h2 class="text-title text-primary pt-4">
+          <h2 class="text-title text-light pt-4">
             Solução de integração
           </h2>
           <p class="text-subtitle text-success">Ideais para a sua loja</p>
-          <p class="text-title">
+          <p class="text-title text-light">
             API E-Commerce Imobanco
           </p>
-          <p class="text-content">
+          <p class="text-content text-light">
             Para facilitar a integração da API, disponibilizamos a biblioteca completa para seu desenvolvedor.
           </p>
         </b-col>

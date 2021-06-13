@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-5 pb-5 bg-light">
+  <section class="pt-5 pb-5 bg-white">
     <b-container>
       <b-row>
         <b-col cols="12" md="12" lg="12" class="pt-3 pb-3">
