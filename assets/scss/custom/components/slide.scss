@@ -29,6 +29,7 @@
   font-size:  38px;
   font-weight: 700;
   color: $light;
+  text-shadow: black 0.1em 0.1em 0.3em;
 }
 .info-home{
   display: block;
@@ -56,6 +57,16 @@
   height: 620px;
   background-color: $white;
   background-image: url("../../static/image/banner-boleto.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+.slide-home-conta{
+  width: 100%;
+  height: 620px;
+  background-color: $white;
+  background-image: url("../../static/image/banner-conta.jpg");
   background-size: cover;
   background-position: center;
   position: relative;

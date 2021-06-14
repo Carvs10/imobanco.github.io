@@ -40,7 +40,7 @@
              </b-nav-item>
         <b-nav-item>    
                   <router-link
-                    to="/imprensa"
+                    to="/conta"
                     class=""
                     >Contas</router-link
                   >
