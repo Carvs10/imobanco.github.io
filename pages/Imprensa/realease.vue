@@ -1,6 +1,5 @@
 <template>
-  <div class="container-fluid">
-    <navbar-secondary />
+  <div>
     <imprensa-slide />
     <post-single />
     <footer-imprensa />

@@ -13,9 +13,9 @@
             srcset
           />
           <br />
-           <h1 class="text-imobanco text-title title-font text-left  mt-4">
+           <h2 class="text-primary text-title text-left  mt-4">
             {{response['data']['titulo'][0]['text']}} 
-          </h1>
+          </h2>
             <div v-for="paragrafo in content_full" :key="paragrafo" class="text-left  mt-4">
             <p class="text-content text-blackdark">{{ paragrafo['text']}}</p>         
           </div>
@@ -70,9 +70,5 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-section {
-  padding-top: 100px;
-  padding-bottom: 50px;
-}
 
 </style>

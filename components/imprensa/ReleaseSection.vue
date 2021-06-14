@@ -2,10 +2,10 @@
   <b-container>
     <b-row class="justify-content-center pt-5 pb-5">
       <b-col cols="12" md="12" lg="12" class="text-left">
-        <h1 class="text-imobanco text-title mt-3 mb-4 title-font">Release imprensa</h1>
+        <h2 class="text-primary text-title mt-3 mb-4">Release imprensa</h2>
       </b-col>
      
-      <b-col cols="12" md="12" lg="12" class="text-left bg-graylight form-radius pt-5 pb-5 box">
+      <b-col cols="12" md="12" lg="12" class="text-left pt-5 pb-5">
         <div v-for="release in response" :key="release" :v-if="response">
           <Release :release="release" :release_id="release['id']" />
         </div>
@@ -45,9 +45,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.box {
-  box-shadow: 1px 4px 5px -2px rgba(80, 79, 79, 0.75);
-  -webkit-box-shadow: 1px 4px 5px -2px rgba(80, 79, 79, 0.75);
-  -moz-box-shadow: 1px 4px 5px -2px rgba(80, 79, 79, 0.75);
-}
+
 </style>

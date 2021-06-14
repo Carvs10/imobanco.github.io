@@ -17,7 +17,7 @@
           <br />Sábados, Domingos e feriados nacionais, sem expediente​
         </p>
         <br />
-        <h5 class="text-subtitle text-center text-black">Suporte Imobanco - Ticket</h5>
+        <h5 class="text-subtitle text-center text-black">Agendamento - Sistema</h5>
         <p>
           Segunda a Domingo, 24h​
           <br />​
