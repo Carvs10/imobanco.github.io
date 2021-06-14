@@ -9,30 +9,45 @@
         </b-col>
       </b-row>
       <b-row>
-        <b-col cols="12" md="4" lg="4" class="text-center">
-          <img
-            src="~static/image/icon-produtos.png"
+        <b-col cols="12" md="4" lg="4" class="text-left">
+          
+          <h4 class="text-subtitle text-success">
+           <img
+            src="~static/image/icon/c-icon-liquidacao.png"
             class="img-fluid icon-ecommerce icon-ecommerce"
-          />
-          <h4 class="text-center text-subtitle text-success">
-            Cadastre seus produtos
+          /> Entrada de Valores
           </h4>
+          <p class="text-success">Depósito identificado</p>
+          <p class="text-success">Emissão de boletos depósitos
+autenticados em qualquer banco,
+agência postal ou lotérica.</p>
+          <p class="text-success">Emissão de boleto com crédito
+automatico em conta</p> 
+          <p class="text-success">Venda eletrônica por recorrência,
+e-commerce e P.O.S.</p> 
+          <p class="text-success">Venda online via PIX</p>
         </b-col>
-        <b-col cols="12" md="4" lg="4" class="text-center">
-          <img
-            src="~static/image/icon-departamento.png"
+        <b-col cols="12" md="4" lg="4" class="text-left">
+         
+          <h4 class="text-subtitle text-success">
+             <img
+            src="~static/image/icon/c-icon-saida.png"
             class="img-fluid icon-ecommerce"
-          />
-          <h4 class="text-center text-subtitle text-success">
-            Escolha o departamento
+          /> Saída de Valores
           </h4>
+          <p class="text-success">Transferência de valores online</p>
+          <p class="text-success">Pagamento de contas (boletos e impostos)</p>
+          <p class="text-success">Gateway de pagamentos</p>
         </b-col>
-        <b-col cols="12" md="4" lg="4" class="text-center">
-          <img
-            src="~static/image/icon-cart.png"
+        <b-col cols="12" md="4" lg="4" class="text-left">
+          
+          <h4 class="text-subtitle text-success"><img
+            src="~static/image/icon/c-icon-servicos.png"
             class="img-fluid icon-ecommerce"
-          />
-          <h4 class="text-center text-subtitle text-success">Começar a vender</h4>
+          /> Serviços </h4>
+           <p class="text-success">Acesso a extrato de conta e emissão de recibos de pagamentos e transferências.</p>
+           <p class="text-success">Atualização cadastral de credores.</p>
+           <p class="text-success">Consulta de score de crédito.</p>
         </b-col>
       </b-row>
     </b-container>
