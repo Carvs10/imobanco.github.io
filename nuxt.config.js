@@ -11,7 +11,7 @@ export default {
     }
   ],
   head: {
-    title: "IMOBANCO | Gestão inteligente de Recebimento",
+    title: "IMOBANCO | Recebimentos e Cobranças",
     meta: [
       {
         charset: "utf-8",
@@ -23,7 +23,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: process.env.npm_package_description || "",
+        content: "Tenha sua gestão financeira facilitada, para você focar no que realmente importa: Fechar novos e bons negócios",
       },
     ],
     link: [

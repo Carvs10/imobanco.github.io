@@ -11,6 +11,30 @@ import NavTop from "@/components/main/NavTop.vue";
 import FooterIndex from "@/components/main/FooterIndex.vue";
 
 export default {
+  head: {
+    title: "IMOBANCO | Recebimentos e Cobranças",
+    meta: [
+      {
+        charset: "utf-8",
+      },
+      {
+        name: "viewport",
+        content: "width=device-width, initial-scale=1",
+      },
+      {
+        hid: "description",
+        name: "description",
+        content: "Tenha sua gestão financeira facilitada. O Imobanco é um banco digital oferece gestão financeira com serviços de conta digital, recebimentos, pagamentos, transferências, cobranças e e-commerce. ",
+      },
+    ],
+    link: [
+      {
+        rel: "icon",
+        type: "image/x-icon",
+        href: "/favicon.ico",
+      },
+    ],
+  },
   components: {
     NavTop,
     FooterIndex,
