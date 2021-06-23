@@ -16,13 +16,72 @@
 
 .slide-home-text {
   position: absolute;
-  right: 15%;
   top: 30%;
-  left: 15%;
+  left: 10%;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
   text-align: left;
+}
+.slide-home-text-right {
+  position: absolute;
+  right: 0%;
+  top: 15%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: left;
+}
+
+// Animação Slide show.
+.globo-slide{
+  width: 444px;
+  height: 444px;
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  background-image: url("../../static/image/globo-slide.png");
+  -webkit-animation: rodaroda 0.5s linear infinite alternate;
+}
+@-webkit-keyframes rodaroda {
+  0% {
+      -webkit-transform:rotate(0deg);
+  }
+  50% {
+      
+      -webkit-transform:rotate(180deg);
+  }
+  100% {
+      -webkit-transform:rotate(360deg);
+  }
+}
+.globo-barra{
+  width: 532px;
+  height: 532px;
+  position: absolute;
+  right: 0%;
+  top: 5%;
+  background-image: url("../../static/image/globo-barra.png");
+  -webkit-animation: rodabarra 0.5s linear  alternate;
+}
+@-webkit-keyframes rodabarra {
+  0% {
+    opacity: 0%;
+      -webkit-transform:rotate(0deg);
+  }
+  20% {
+    opacity: 10%;
+      -webkit-transform:rotate(10deg);
+  }
+  30% {
+    opacity: 100%;
+      -webkit-transform:rotate(10deg);
+  }
+  
+  100% {
+    opacity: 100%;
+      -webkit-transform:rotate(90deg);
+  }
 }
 .text-slide-home{
   font-family: 'Poppins', sans-serif;
@@ -92,3 +151,4 @@
   position: relative;
   overflow: hidden;
 }
+
