@@ -10,8 +10,7 @@
       </div>
       </b-col>
       <b-col lg=6 class="slide-home-text-right">
-        <div class="globo-slide"></div>
-        <div class="globo-barra"></div>
+        
       </b-col>
     </b-row>
     </b-container>
