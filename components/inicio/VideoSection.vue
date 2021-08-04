@@ -2,6 +2,10 @@
   <section class="videosection pt-2 pb-2">
     <b-container class="videobase">
       <b-row class="">
+        <b-col lg="12" class="text-center">
+          <h2 class="text-light title-font">Vídeo</h2>
+            <p class="text-light">Vídeo, podcast e muito mais.</p>
+        </b-col>
         <b-col cols="12" md="6" lg="6" class="text-left mt-2">
            <img src="../../static/image/logo-globo-rn.png" alt class="img-fluid logo-video" />
           <iframe
@@ -14,7 +18,7 @@
           ></iframe>
         </b-col>
         <b-col cols="12" md="6" lg="6" class="text-left mt-2">
-          <h2 class="title-font text-primary">Gestão Financeira facilitada, para você focar no que realmente importa:</h2>
+          <h2 class="title-font text-light">Gestão Financeira facilitada, para você focar no que realmente importa:</h2>
           <p class="text-subtitle">
             Fechar novos e bons negócios
           </p>

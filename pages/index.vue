@@ -2,6 +2,7 @@
   <div>
     <ContaDigitalSection />
     <ContaOnline />
+    <ContaGeral />
     <VideoSection />
     <ParceiroSection />
     <EcommerceChamada />
@@ -13,6 +14,7 @@
 <script>
 import ContaDigitalSection from "../components/inicio/ContaDigitalSection";
 import ContaOnline from "../components/inicio/ContaOnline";
+import ContaGeral from "../components/inicio/ContaGeral";
 import VideoSection from "../components/inicio/VideoSection";
 import ParceiroSection from "../components/inicio/ParceiroSection";
 import TecnologiaSection from "../components/inicio/TecnologiaSection";
@@ -23,6 +25,7 @@ export default {
   components: {
     ContaDigitalSection,
     ContaOnline,
+    ContaGeral,
     VideoSection,
     ParceiroSection,
     TecnologiaSection,

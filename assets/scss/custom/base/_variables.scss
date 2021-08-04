@@ -323,16 +323,21 @@ $bg-color-dark: #000a12;
 }
 .videosection{
   background-color: #111827;
+}
+.logo-video{
+  width: 300px;
+}
+.vantagens{
   background-image: url("../../static/image/bg-right-seta.png");
   background-position: right;
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
 }
-.logo-video{
-  width: 300px;
+.card-bg{
+  background-color: #111827;
 }
-.vantagens{
+.contageral{
   background-image: url("../../static/image/bg-right-seta.png");
   background-position: right;
   background-repeat: no-repeat;
