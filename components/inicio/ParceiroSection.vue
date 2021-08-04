@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-4 pb-4">
+  <section class="vantagens pt-4 pb-4">
     <b-container>
       <b-row>
         <b-col cols="12" md="6" lg="8" class="text-left mt-2">

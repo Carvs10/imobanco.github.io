@@ -1,12 +1,13 @@
 <template>
-  <section class="contadigital pt-2 pb-2">
+  <section class="videosection pt-2 pb-2">
     <b-container class="videobase">
       <b-row class="">
         <b-col cols="12" md="6" lg="6" class="text-left mt-2">
+           <img src="../../static/image/logo-globo-rn.png" alt class="img-fluid logo-video" />
           <iframe
             width="100%"
             height="270"
-            src="https://www.youtube.com/embed/mRdpOnCGR7E?start=3"
+            src="https://www.youtube.com/embed/5vgKO1SAqVQ"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen

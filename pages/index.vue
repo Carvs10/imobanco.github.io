@@ -1,6 +1,7 @@
 <template>
   <div>
     <ContaDigitalSection />
+    <ContaOnline />
     <VideoSection />
     <ParceiroSection />
     <EcommerceChamada />
@@ -11,6 +12,7 @@
 
 <script>
 import ContaDigitalSection from "../components/inicio/ContaDigitalSection";
+import ContaOnline from "../components/inicio/ContaOnline";
 import VideoSection from "../components/inicio/VideoSection";
 import ParceiroSection from "../components/inicio/ParceiroSection";
 import TecnologiaSection from "../components/inicio/TecnologiaSection";
@@ -20,6 +22,7 @@ import EcommerceChamada from "@/components/ecommerce/EcommerceChamada.vue";
 export default {
   components: {
     ContaDigitalSection,
+    ContaOnline,
     VideoSection,
     ParceiroSection,
     TecnologiaSection,
