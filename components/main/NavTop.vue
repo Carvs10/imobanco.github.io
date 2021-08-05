@@ -28,38 +28,58 @@
                   <router-link
                     to="/Boletos"
                     class=""
-                    >Boletos</router-link
+                    >Quem Somos</router-link
                   >
             </b-nav-item>
-            <b-nav-item>
+            <!-- <b-nav-item>
                   <router-link
                     to="/Ecommerce"
                     class=""
                     >Ecommerce</router-link
                   >
-             </b-nav-item>
-        <b-nav-item>    
+             </b-nav-item> -->
+              <b-nav-item>    
                   <router-link
                     to="/conta"
                     class=""
-                    >Contas</router-link
+                    >Conta Digital</router-link
                   >
                   </b-nav-item>
-        <!-- <b-nav-item>
-                  <router-link
-                    to="/imprensa"
-                    class=""
-                    >Combo</router-link
-                  >
-                  </b-nav-item> -->
+        
         <b-nav-item>
+            <b-nav-item-dropdown class="text-light" text="Serviços" right>
+                <b-dropdown-item> 
+                  <router-link to="/Boletos" class=" text-primary" >Boletos </router-link>
+                </b-dropdown-item>
+                <b-dropdown-item> 
+                  <router-link to="/Boletos" class=" text-primary" >Carnê</router-link>
+                </b-dropdown-item>
+                <b-dropdown-item> 
+                  <router-link to="/Boletos" class=" text-primary" >Ecommerce </router-link>
+                </b-dropdown-item>
+                <b-dropdown-item> 
+                  <router-link to="/Boletos" class=" text-primary" >Folha de Pagamento </router-link>
+                </b-dropdown-item>
+                <b-dropdown-item> 
+                  <router-link to="/Boletos" class=" text-primary" >Pix deposito </router-link>
+                </b-dropdown-item>
+                <b-dropdown-item> 
+                  <router-link to="/Boletos" class=" text-primary" >Split de Pagamentos </router-link>
+                </b-dropdown-item>
+                <b-dropdown-item> 
+                  <router-link to="/Boletos" class=" text-primary" >Sistema de Pagamentos </router-link>
+                </b-dropdown-item>    
+            </b-nav-item-dropdown>
+       </b-nav-item>
+
+                 <b-nav-item>
                   <router-link
                     to="/imprensa"
                     class=""
                     >Blog</router-link
                   >
                    </b-nav-item>
-        <b-nav-item>
+                  <b-nav-item>
                   <router-link
                     to="/contato"
                     class=""

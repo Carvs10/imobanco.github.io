@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row justify-content-center">
         <div class="col-lg-12 text-center">
-            <h2 class="text-primary title-font">Conta Digital</h2>
+            <h2 class="text-primary title-font">Serviços</h2>
             <h5 class="text-primary">Muito mais que uma conta.</h5>
             <p class="text-primary">Você no controle administrativo dos seus pagamentos e recebimentos.</p>
         </div>

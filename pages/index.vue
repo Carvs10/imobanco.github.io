@@ -3,8 +3,8 @@
     <ContaDigitalSection />
     <ContaOnline />
     <ContaGeral />
-    <VideoSection />
     <ParceiroSection />
+    <VideoSection />
     <EcommerceChamada />
     <!-- <TecnologiaSection />    -->
     <NoticiasSection titulo="Notícias" />
