@@ -6,8 +6,11 @@
           <h2 class="text-light title-font">Vídeo</h2>
             <p class="text-light">Vídeo, podcast e muito mais.</p>
         </b-col>
+        <b-col lg="12">
+          <img src="../../static/image/logo-globo-rn.png" alt class="img-fluid logo-video" />
+        </b-col>
         <b-col cols="12" md="6" lg="6" class="text-left mt-2">
-           <img src="../../static/image/logo-globo-rn.png" alt class="img-fluid logo-video" />
+           
           <iframe
             width="100%"
             height="270"
@@ -18,9 +21,9 @@
           ></iframe>
         </b-col>
         <b-col cols="12" md="6" lg="6" class="text-left mt-2">
-          <h2 class="title-font text-light">Gestão Financeira facilitada, para você focar no que realmente importa:</h2>
+          <h2 class="title-font text-light">Tire suas dúvidas sobre o 'PIX' - com o CEO Fernando Colares</h2>
           <p class="text-subtitle">
-            Fechar novos e bons negócios
+            Bom Dia RN - TV GLOBO
           </p>
         </b-col>
         
