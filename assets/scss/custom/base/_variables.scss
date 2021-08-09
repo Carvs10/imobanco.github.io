@@ -100,7 +100,7 @@ box-sizing: border-box;
 Cores do Template Dashboard Imobanco
 */
 
-$white:    #fff !default;
+$white: #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
@@ -110,27 +110,26 @@ $gray-600: #6c757d !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
-$black:    #000 !default;
 
 $grays: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $grays: map-merge(
-  (
-    "100": $gray-100,
-    "200": $gray-200,
-    "300": $gray-300,
-    "400": $gray-400,
-    "500": $gray-500,
-    "600": $gray-600,
-    "700": $gray-700,
-    "800": $gray-800,
-    "900": $gray-900
-  ),
-  $grays
+(
+"100": $gray-100,
+"200": $gray-200,
+"300": $gray-300,
+"400": $gray-400,
+"500": $gray-500,
+"600": $gray-600,
+"700": $gray-700,
+"800": $gray-800,
+"900": $gray-900
+),
+$grays
 );
 
 $primary: #002c5f !default;
-$secondary: #363636 !default;
+$secondary: #6e6d7a !default;
 $info: #003e69 !default;
 $success: #00c1de !default;
 $danger: #ff304f !default;
@@ -139,69 +138,67 @@ $light: #ffffff !default;
 $gray-light: #f4f4f4 !default;
 $gray-medio: #e5e5e5 !default;
 $gray: #b0b0b0 !default;
-$dark: #171717 !default;  
+$dark: #171717 !default;
 
-$blue:    #007bff !default;
-$indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
-$pink:    #e83e8c !default;
-$red:     #dc3545 !default;
-$orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
-$green:   #28a745 !default;
-$teal:    #20c997 !default;
-$cyan:    #17a2b8 !default;
+$blue: #007bff !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #28a745 !default;
+$teal: #20c997 !default;
+$cyan: #17a2b8 !default;
 
 $colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $colors: map-merge(
-  (
-    "blue":       $blue,
-    "indigo":     $indigo,
-    "purple":     $purple,
-    "pink":       $pink,
-    "red":        $red,
-    "orange":     $orange,
-    "yellow":     $yellow,
-    "green":      $green,
-    "teal":       $teal,
-    "cyan":       $cyan,
-    "white":      $white,
-    "gray":       $gray-600,
-    "gray-dark":  $gray-800
-  ),
-  $colors
+(
+"blue": $blue,
+"indigo": $indigo,
+"purple": $purple,
+"pink": $pink,
+"red": $red,
+"orange": $orange,
+"yellow": $yellow,
+"green": $green,
+"teal": $teal,
+"cyan": $cyan,
+"white": $white,
+"gray": $gray-600,
+"gray-dark": $gray-800
+),
+$colors
 );
 
-$primary:       $primary !default;
-$secondary:     $secondary !default;
-$info:          $info !default;
-$success:       $success !default;
-$danger:        $danger !default;
-$warning:       $warning !default;
-$light:         $light !default;
-$dark:          $dark !default;
+$primary: $primary !default;
+$secondary: $secondary !default;
+$info: $info !default;
+$success: $success !default;
+$danger: $danger !default;
+$warning: $warning !default;
+$light: $light !default;
+$dark: $dark !default;
 
 $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $theme-colors: map-merge(
-  (
-    "primary":    $primary,
-    "secondary":  $secondary,
-    "success":    $success,
-    "info":       $info,
-    "warning":    $warning,
-    "danger":     $danger,
-    "light":      $light,
-    "dark":       $dark,
-  ),
-  $theme-colors
+(
+"primary": $primary,
+"secondary": $secondary,
+"success": $success,
+"info": $info,
+"warning": $warning,
+"danger": $danger,
+"light": $light,
+"dark": $dark,
+),
+$theme-colors
 );
-/*
-Component Button
-*/
+
 // Background colors
-$bg-color-primary: #000051;
+$bg-color-primary: #002c5f;
 $bg-color-secondary: #212121;
 $bg-color-info: #002f6c;
 $bg-color-success: #00acc1;
@@ -209,101 +206,187 @@ $bg-color-danger: #d50000;
 $bg-color-warning: #ffb300;
 $bg-color-light: #eeeeee;
 $bg-color-dark: #000a12;
+// Outline
+$bg-outline-style-default: background-color rgba(0,0,0, 0.0);
+
+// Cards
+$card-margin-top: 20px;
+// Fonts
+$font-family-base-imobanco: 'roboto', sans-serif !default;
+$font-family-base-imobanco-color: $primary;
+$font-family-card-imobanco-color: $primary !default;
+
+// Fonts Impressos
+$font-impressos: 'roboto', sans-serif !default;
+$font-impressos-titulo: 12px;
+$font-impressos-titulo-carne: 11px;
+$font-impressos-titulo-small: 10px;
+$font-impressos-titulo-big: 14px;
+
+
 
 .bg-gradient-ecommerce{
   background: rgb(0,44,95);
   background: linear-gradient(70deg, rgba(0,44,95,1) 0%, rgba(0,193,222,1) 100%); 
 }
-.btn-success{
-  padding: 5px 10px;
-  border: 1px solid $success !important;
-  border-radius: 5px;
-  color: $light;
-  background-color: $success;
-  cursor: pointer;
-  margin: 5px;
-}
-.btn{
+%br-button{
+  border: 1px solid;
+  }
+  .btn{
+  display: inline-block;
+  vertical-align: middle;
   padding: 5px 10px;
   border: 1px solid $primary;
-  border-radius: 5px;
+  border-radius: 4px;
   color: $light;
   background-color: $primary;
   cursor: pointer;
-  margin: 5px;
-
+  // 'margin: 5px;'
+  
   &:hover{
-    background-color: $bg-color-primary;
-    color: $light;
-    text-decoration: none;
+  background-color: $bg-color-primary;
+  color: $light;
+  text-decoration: none;
   }
   
   &-primary{
-    background-color: $primary;
+  background-color: $primary;
   }
   &-secondary{
-    background-color: $secondary;
-    border: 1px solid $secondary;
-
-    &:hover{
-      background-color: $bg-color-secondary;
-    }  
+  background-color: $secondary;
+  border: 1px solid $secondary;
+  
+  &:hover{
+    background-color: $bg-color-secondary;
+  }  
   }
   &-success{
-    background-color: $success;
-    border: 1px solid $success;
-
+  background-color: $success;
+  border: 1px solid $success;
+  
+  &:hover{
+    background-color: $bg-color-success;
+  }  
+  }
+  &-info{
+  background-color: $info;
+  border: 1px solid $info;
+  
+  &:hover{
+    background-color: $bg-color-info;
+  }  
+  }
+  &-danger{
+  background-color: $danger;
+  border: 1px solid $danger;
+  
+  &:hover{
+    background-color: $bg-color-danger;
+  }  
+  }
+  &-warning{
+  background-color: $warning;
+  border: 1px solid $warning;
+  color: $dark;
+  
+  &:hover{
+    background-color: $bg-color-warning;
+    color: $dark;
+  }  
+  }
+  &-light{
+  background-color: $light;
+  border: 1px solid $light;
+  color: $dark;
+  
+  &:hover{
+    background-color: $bg-color-light;
+    color: $dark;
+  }  
+  }
+  &-dark{
+  background-color: $dark;
+  border: 1px solid $dark;
+  color: $light;
+  
+  &:hover{
+    background-color: $bg-color-dark;
+    color: $light;
+  }  
+  }
+  &-outline{
+  border: 1px solid $primary;
+  
+  &-primary{
+    background-color: transparent;
+    color: $primary;
+  }
+  &-secondary{
+    background-color: transparent;
+    color: $secondary;
+    border: 1px solid $secondary;
     &:hover{
-      background-color: $bg-color-success;
+      background-color: $secondary;
+      color: $light;
     }  
   }
   &-info{
-    background-color: $info;
-    border: 1px solid $info;
-
+    background-color: transparent;
+    color: $info;
+    border: 1px solid $info; 
     &:hover{
-      background-color: $bg-color-info;
+      background-color: $info;
+      color: $light;
+    }  
+  }
+  &-success{
+    background-color: transparent;
+    color: $success;
+    border: 1px solid $success; 
+    &:hover{
+      background-color: $success;
+      color: $light;
     }  
   }
   &-danger{
-    background-color: $danger;
-    border: 1px solid $danger;
-
+    background-color: transparent;
+    color: $danger;
+    border: 1px solid $danger; 
     &:hover{
-      background-color: $bg-color-danger;
+      background-color: $danger;
+      color: $light;
     }  
   }
   &-warning{
-    background-color: $warning;
-    border: 1px solid $warning;
-    color: $dark;
-
+    background-color: transparent;
+    color: $secondary;
+    border: 1px solid $warning; 
     &:hover{
-      background-color: $bg-color-warning;
-      color: $dark;
+      background-color: $warning;
+      color: $secondary;
     }  
   }
   &-light{
-    background-color: $light;
-    border: 1px solid $light;
-    color: $dark;
-
+    background-color: transparent;
+    color: $secondary;
+    border: 1px solid $gray; 
     &:hover{
-      
-      color: $dark;
+      background-color: $gray;
+      color: $secondary;
+      border: 1px solid $gray; 
     }  
   }
   &-dark{
-    background-color: $dark;
-    border: 1px solid $dark;
-    color: $light;
-
+    background-color: transparent;
+    color: $dark;
+    border: 1px solid $dark; 
     &:hover{
-      background-color: $bg-color-dark;
-      color: $dark;
+      background-color: $dark;
+      color: $light;
     }  
   }
-}
+  }
+  }
 
 .videobase{
   margin-top: 50px;
@@ -311,7 +394,7 @@ $bg-color-dark: #000a12;
   padding: 50px;
 }
 .seguranca{
-  background-color: #111827;
+  background-color: #ffffff;
 }
 .card-seguro{
   background-color: #111827;
@@ -327,6 +410,9 @@ $bg-color-dark: #000a12;
 .logo-video{
   width: 300px;
 }
+.contadital-img{
+  border-radius: 20px;
+}
 // .vantagens{
 //   background-image: url("../../static/image/bg-right-seta.png");
 //   background-position: right;
@@ -338,9 +424,5 @@ $bg-color-dark: #000a12;
   background-color: #111827;
 }
 .contageral{
-  background-image: url("../../static/image/bg-right-seta.png");
-  background-position: right;
-  background-repeat: no-repeat;
-  position: relative;
-  overflow: hidden;
+  background-color: #e7e7e7;
 }

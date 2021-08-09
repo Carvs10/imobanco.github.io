@@ -14,9 +14,9 @@
       </b-col>
     </b-row>
     </b-container>
-      <!-- <div>
+      <div>
         <img src="../../static/image/bg-home-1.png" alt="" class="waves" />
-     </div>      -->
+     </div>     
   </section>
 </template>
 

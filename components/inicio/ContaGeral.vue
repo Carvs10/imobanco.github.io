@@ -3,12 +3,12 @@
   <div class="container">
     <div class="row justify-content-center">
         <div class="col-lg-12 text-center">
-            <h2 class="text-primary title-font">Serviços</h2>
+            <h2 class="text-primary title-font">Soluções</h2>
             <h5 class="text-primary">Muito mais que uma conta.</h5>
             <p class="text-primary">Você no controle administrativo dos seus pagamentos e recebimentos.</p>
         </div>
 
-        <div class="col-lg-12">
+        <div class="col-lg-4">
         <div class="card mb-3 card-bg">
                 <div class="card-body card-bg">
                     <h5 class="text-success"><i class="far fa-arrow-alt-circle-right mr-2"></i> Emissão e liquidação de boletos e carnês</h5>
@@ -18,7 +18,7 @@
         </div>
       </div>
 
-    <div class="col-lg-12">
+    <div class="col-lg-4">
         <div class="card mb-3 card-bg">
            
                 <div class="card-body card-bg">
@@ -29,7 +29,7 @@
       </div>
 
 
-      <div class="col-lg-12">
+      <div class="col-lg-4">
         <div class="card mb-3 card-bg">
             
                 <div class="card-body card-bg">
