@@ -413,6 +413,9 @@ $font-impressos-titulo-big: 14px;
 .contadital-img{
   border-radius: 20px;
 }
+.quemsomos-img{
+  border-radius: 20px;
+}
 // .vantagens{
 //   background-image: url("../../static/image/bg-right-seta.png");
 //   background-position: right;
@@ -425,4 +428,10 @@ $font-impressos-titulo-big: 14px;
 }
 .contageral{
   background-color: #e7e7e7;
+}
+.linhaimobanco{
+  border: solid 1px $success;
+}
+.conta-dash{
+  background-color: #f5f5f5;
 }

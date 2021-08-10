@@ -51,6 +51,13 @@
 
         </div>
       </div>
+      <b-col lg="12" class="text-center">
+        <router-link
+                    to="/solucoes"
+                    class="btn btn-outline-primary"
+                    >Mais Soluções</router-link
+                  >
+      </b-col>
       
     </div>
   </div>

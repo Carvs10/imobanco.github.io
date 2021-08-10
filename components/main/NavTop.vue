@@ -26,7 +26,7 @@
         </b-nav-item>
         <b-nav-item>
                   <router-link
-                    to="/Boletos"
+                    to="/quemsomos"
                     class=""
                     >Quem Somos</router-link
                   >
@@ -44,15 +44,22 @@
                     class=""
                     >Conta Digital</router-link
                   >
-                  </b-nav-item>
+              </b-nav-item>
+              <b-nav-item>    
+                  <router-link
+                    to="/solucoes"
+                    class=""
+                    >Soluções</router-link
+                  >
+              </b-nav-item>
         
-        <b-nav-item>
+        <!-- <b-nav-item>
             <b-nav-item-dropdown class="text-light" text="Serviços" right>
                 <b-dropdown-item> 
                   <router-link to="/Boletos" class=" text-primary" >Boletos </router-link>
                 </b-dropdown-item>
                 <b-dropdown-item> 
-                  <router-link to="/Boletos" class=" text-primary" >Carnê</router-link>
+                  <router-link to="/quemsomos" class=" text-primary" >Carnê</router-link>
                 </b-dropdown-item>
                 <b-dropdown-item> 
                   <router-link to="/Boletos" class=" text-primary" >Ecommerce </router-link>
@@ -70,7 +77,7 @@
                   <router-link to="/Boletos" class=" text-primary" >Sistema de Pagamentos </router-link>
                 </b-dropdown-item>    
             </b-nav-item-dropdown>
-       </b-nav-item>
+       </b-nav-item> -->
 
                  <b-nav-item>
                   <router-link

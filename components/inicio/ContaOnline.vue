@@ -16,7 +16,7 @@
         <p class="text-secundary">Nosso sistema é online, que permite você administrar sua conta de qualquer lugar.</p>
          <h5 class="text-success"><i class="fas fa-user-shield text-center icon-seguro"></i>  <span class="text-primary text-title">Seguro</span></h5>
         <p class="text-secundary">Nosso sistema é 100% seguro, com proteção de dados e informações autenticadas. </p>
-        <a href="" class="btn btn-success">QUERO SER CLIENTE</a>
+        <a href="https://app.imobanco.com.br/register" class="btn btn-outline-primary">Quero ser cliente Imobanco</a>
     </div>      
     </div>
   </div>

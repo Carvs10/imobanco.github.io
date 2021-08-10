@@ -17,8 +17,6 @@
               <p class="text-content">Emita boletos recorrentes e envie-os por e-mail gratuitamente.</p>
             </b-col>
           </b-row>
-        </b-col>
-        <b-col cols="12" md="6" lg="6" class="text-left mt-2">
           <b-row>
             <b-col cols="4" md="4" lg="2">
               <img src="../../static/image/g226foneparceiros.png" alt class="img-fluid icon-parceiro" />
@@ -30,10 +28,6 @@
               >Cuidamos de suas cobranças e recuperação de crédito pra você!</p>
             </b-col>
           </b-row>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col cols="12" md="6" lg="6" class="text-left mt-2">
           <b-row>
             <b-col cols="4" md="4" lg="2">
               <img src="../../static/image/g2481shopparceiros.png" alt class="img-fluid  icon-parceiro" />
@@ -43,8 +37,6 @@
               <p class="text-content">Cadastre-se, crie seu e-commerce e comece a vender na internet.</p>
             </b-col>
           </b-row>
-        </b-col>
-        <b-col cols="12" md="6" lg="6" class="text-left mt-2">
           <b-row>
             <b-col cols="4" md="4" lg="2">
               <img src="../../static/image/g268cadeadoparceiros.png" alt class="img-fluid icon-parceiro" />
@@ -56,10 +48,6 @@
               >Pague uma pequena tarifa de acordo com a sua movimentação financeira.</p>
             </b-col>
           </b-row>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col cols="12" md="6" lg="6" class="text-left mt-2">
           <b-row>
             <b-col cols="4" md="4" lg="2">
               <img src="../../static/image/g324dinehiroparceiros.png" alt class="img-fluid icon-parceiro" />
@@ -71,9 +59,7 @@
               >Quem é parceiro Imobanco não se preocupa com datas de pagamento.</p>
             </b-col>
           </b-row>
-        </b-col>
-        <b-col cols="12" md="6" lg="6" class="text-left mt-2">
-          <b-row>
+           <b-row>
             <b-col cols="4" md="4" lg="2">
               <img src="../../static/image/g316setasoparceiros.png" alt class="img-fluid icon-parceiro" />
             </b-col>
@@ -85,6 +71,7 @@
             </b-col>
           </b-row>
         </b-col>
+       
       </b-row>
     </b-container>
   </section>

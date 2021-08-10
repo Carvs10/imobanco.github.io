@@ -1,5 +1,5 @@
 <template>
-  <section class="videosection pt-2 pb-2">
+  <section class="videosection">
     <b-container class="videobase">
       <b-row class="">
         <b-col lg="12" class="text-center">
