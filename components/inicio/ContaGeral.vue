@@ -7,7 +7,7 @@
             <h5 class="text-primary">Muito mais que uma conta.</h5>
             <p class="text-primary">Você no controle administrativo dos seus pagamentos e recebimentos.</p>
         </div>
-
+        
         <div class="col-lg-4">
         <div class="card mb-3 card-bg">
                 <div class="card-body card-bg">
@@ -63,3 +63,4 @@
   </div>
   </section>
 </template>
+
