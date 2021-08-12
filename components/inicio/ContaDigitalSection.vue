@@ -1,30 +1,40 @@
 <template>
-  <section class="mt-3">     
+  <section class="slide-home">
     <b-container>
       <b-row>
-        <b-col cols="12" md="6" lg="6" class="text-left mt-5 pt-4">
-          <h3 class="text-primary text-title title-font mt-2">Somos a Conta Digital ideal para o 
-            <span class="mark">sucesso</span> do seu
-            negócio.
-          </h3>
-          <p class="text-success">O Imobanco te ajuda a ganhar dinheiro!</p>
-          <a href="https://app.imobanco.com.br/register" target="_blank"><b-button class="bg-primary text-light">Abra sua conta</b-button> </a>
-        </b-col>
-        <b-col cols="12" md="6" lg="5" class="text-right mt-3">
-          <img src="../../static/image/tela-index-slide.png" alt class="img-fluid" />
-        </b-col>
-      </b-row>
+      <b-col lg="6" class="slide-home-text">
+        <h1 class="text-light text-title">Recebimentos e cobranças <br> em um único lugar.</h1>
+        
+      <div class="mt-2">
+          <a href="https://app.imobanco.com.br/register" class="btn btn-outline-success">Quero ser cliente Imobanco</a>
+      </div>
+      </b-col>
+      <b-col lg="6">
+        <!-- <img src="../../static/image/layout/dash-conta.png" alt="" class="img-fluid" /> -->
+      </b-col>
+    </b-row>
     </b-container>
+      <div>
+        <img src="../../static/image/bg-home-1.png" alt="" class="waves" />
+     </div>     
   </section>
 </template>
-<style lang="scss" scoped>
-section {
-  padding-top: 50px;
-  .mark {
-    background-color: #38b4ca;
-    padding-top: 0px;
-    border-radius: 8px;
-    color: white;
+
+<script>
+  export default {
+    data() {
+      return {
+        slide: 0,
+        sliding: null
+      }
+    },
+    methods: {
+      onSlideStart(slide) {
+        this.sliding = true
+      },
+      onSlideEnd(slide) {
+        this.sliding = false
+      }
+    }
   }
-}
-</style>
+</script>

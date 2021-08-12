@@ -2,17 +2,46 @@
   <section>
     <b-container>
       <b-row>
-        <b-col cols="12" md="12" lg="12" class="text-center pt-3">
-          <p class="text-white text-content mt-2">
-            <span class="text-content">
-              <a v-for="(media, index) in social_media" :href="media.link" target="_blank">
-                <img :src="media.icon" alt class="ml-1 mr-1 icon-footer" />
-              </a>
+        <b-col cols="12" md="12" lg="6" class="text-left pt-3">
+          <p class="mt-2">
+            <span>
+              <a href="https://www.facebook.com/imobanco/">
+              <img src="../../static/image/social-facebook.png" alt="" class="icon-footer">
+            </a>
+            </span>
+            <span>
+              <a href="https://www.youtube.com/channel/UCFe-OZKEAc2gQ4elclp1MUg">
+              <img src="../../static/image/social-youtube.png" alt="" class="icon-footer">
+            </a>
+            </span>
+            <span>
+              <a href="https://twitter.com/imobanco">
+              <img src="../../static/image/social-twitter.png" alt="" class="icon-footer">
+            </a>
+            </span>
+            <span>
+              <a href="https://br.linkedin.com/company/imobanco">
+              <img src="../../static/image/social-linkedin.png" alt="" class="icon-footer">
+            </a>
+            </span>
+            <span>
+              <a href="https://www.instagram.com/imobanco/">
+              <img src="../../static/image/social-instagram.png" alt="" class="icon-footer">
+            </a>
             </span>
           </p>
           <p class="text-white text-content mt-3">
             Imobanco 2020 © - Todos os direitos reservados.
           </p>
+        </b-col>
+        <b-col lg="2" class="pt-3">
+          <img src="../../static/image/layout/logo-accesstage.png" alt class="img-fluid" />
+        </b-col>
+        <b-col lg="2" class="pt-3">
+          <img src="../../static/image/layout/logo-aws.png" alt class="img-fluid" />
+        </b-col>
+        <b-col lg="2" class="pt-3">
+          <img src="../../static/image/layout/logo-bb.png" alt class="img-fluid" />
         </b-col>
       </b-row>
     </b-container>
@@ -22,45 +51,6 @@
 <script>
 export default {
   name: "FooterSocial",
-  data() {
-    return {
-      social_media: [
-        
-        {
-          title: "Facebook",
-          link: "https://www.facebook.com/imobanco/",
-          icon: "image/social-facebook.png",
-        },
-        {
-          title: "Youtube",
-          link: "https://www.youtube.com/channel/UCFe-OZKEAc2gQ4elclp1MUg",
-          icon: "image/social-youtube.png",
-        },
-        {
-          title: "Twitter",
-          link: "https://twitter.com/imobanco",
-          icon: "image/social-twitter.png",
-        },
-        {
-          title: "Linkedin",
-          link: "https://br.linkedin.com/company/imobanco",
-          icon: "image/social-linkedin.png",
-        },
-        {
-          title: "Instagram",
-          link: "https://www.instagram.com/imobanco/",
-          icon: "image/social-instagram.png",
-        }/*
-        {
-          title: "Telegram",
-          link: "https://t.me/imobancobot",
-          icon: "image/social-telegram.png",
-        },*/
-        
-        
-      ],
-    };
-  },
 };
 </script>
 

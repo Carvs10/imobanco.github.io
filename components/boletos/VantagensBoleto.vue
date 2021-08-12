@@ -1,13 +1,13 @@
 <template>
-  <section class="pb-5">
+  <section class="pb-5 bg-white">
     <b-container>
       <b-row>
         <b-col cols="12" md="6" lg="4" class="text-center mt-5">
           <img src="image/boletos.png" alt class="img-fluid" />
         </b-col>
         <b-col cols="12" md="12" lg="8" class="mt-5">
-          <h2 class="text-imobanco text-title title-font">Um Boleto</h2>
-          <span class="subtitulo text-success title-font">Inúmeras vantagens.</span>
+          <h2 class="title-font">Um Boleto</h2>
+          <p class="text-subtitle">Inúmeras vantagens.</p>
           <b-row>
             <b-col cols="12" md="6" lg="6" class="text-left">
               <b-row>

@@ -1,24 +1,19 @@
 <template>
-  <section class="pt-4 pb-4 ">
-    <b-container>
-      <b-row>
-        <b-col cols="12" md="7" lg="7" class="pt-5">
-          <h1 class="mt-5 mb-0 text-title text-primary title-font">
-            Crie sua própria loja e venda muito mais!
-          </h1>
-          <h6 class="text-title text-primary pb-0 mb-0 pt-1">Setup e custo para treinamento gratuito*</h6>
-          <h1 class="mb-0 text-title text-success title-font">R$ 0,00</h1>
-          <h6 class="text-title text-primary">*Consulte as taxas transacionais.</h6>
-          <a href="https://app.imobanco.com.br/register" target="_blank"><b-button class="bg-primary text-light">Abra sua conta</b-button> </a>
-        </b-col>
-        <b-col cols="12" md="5" lg="5" class="pt-5">
-          <img src="image/ecommerce-top.png" alt class="img-fluid" />
-        </b-col>
-      </b-row>
-    </b-container>
+  <section class="slide-home-ecommerce">
+      <div class="slide-home-text">
+      <h1 class="text-slide-home">Crie sua própria loja <br> e venda muito mais!</h1>
+      <p class="text-light m-0 p-0">Setup e custo para treinamento gratuito*</p>
+      <p class="text-light m-0 p-0">*Consulte as taxas transacionais.</p>
+      <div class="mt-2">
+         <!-- <p class="text-subtitle ">Simplifique com o Imobanco.</p> -->
+          <a href="https://app.imobanco.com.br/register" target="_blank" class="btn btn-success">Abra sua conta</a>
+      </div>
+    </div>
+     <div>
+        <img src="../../static/image/bg-home-1.png" alt="" class="waves" />
+     </div>     
   </section>
 </template>
-
 <script>
 </script>
 

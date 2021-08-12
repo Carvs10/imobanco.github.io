@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div>
     <BlogSlide/>
     <BlogContent/>
     <NoticiasSection titulo="Outras Notícias"/>

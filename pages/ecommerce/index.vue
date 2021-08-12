@@ -1,14 +1,12 @@
 <template>
-  <div class="container-fluid">
+  <div>
     <ecommerce-slide />
     <ecommerce-recursos />
-    <ecommerce-vendermais />
     <ecommerce-loja />
+    <ecommerce-vendermais />
     <ecommerce-chamada />
     <ecommerce-transacoes/>
     <ecommerce-vantagens />
-    
-    
   </div>
 </template>
 

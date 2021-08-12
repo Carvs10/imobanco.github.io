@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-3">
+  <section class="pt-3 bg-primary">
     <b-container>
       <b-row class="mt-4">
         <b-col cols="12" md="12" lg="5" class="text-left">
@@ -26,18 +26,6 @@
 
         <!-- Tópico SOLUÇÕES -->
         <b-col cols="6" md="4" lg="2" class="text-left mt-5">
-          <h5 class="text-white text-title">Soluções</h5>
-          <p v-for="(topic, index) in topics_solution" class="mt-0 mb-0 text-content">
-            <router-link
-              :to="topic.link"
-              class="text-white text-decoration-none"
-              >{{ topic.title }}</router-link
-            >
-          </p>
-        </b-col>
-
-        <!-- Lista de REDES SOCIAIS -->
-        <b-col cols="6" md="4" lg="2" class="text-left mt-5">
           <h5 class="text-white text-title">Ajuda</h5>
           <p v-for="(topic, index) in topics_ajuda" class="mt-0 mb-0 text-content">
             <router-link
@@ -47,6 +35,9 @@
             >
           </p>
         </b-col>
+
+        <!-- Lista de REDES SOCIAIS -->
+       
       </b-row>
     </b-container>
   </section>
@@ -83,9 +74,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-  section{
-    background-color: #2e2c2c;
-  }
-</style>

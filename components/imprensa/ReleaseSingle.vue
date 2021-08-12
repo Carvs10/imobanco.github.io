@@ -4,7 +4,7 @@
     <b-container>
       <b-row class="justify-content-center">
         <b-col cols="12" md="6" lg="8" class="text-left mt-4" v-if="response">
-          <h1 class="text-imobanco text-title title-font">{{response['data']['titulo'][0]['text']}}</h1>
+          <h2 class="text-primary text-title">{{response['data']['titulo'][0]['text']}}</h2>
           <h6
             class="text-content text-blackdark"
           >Data: {{response['data']['data'].split('-').reverse().join('/')}}</h6>
@@ -63,8 +63,4 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-section {
-  padding-top: 100px;
-  padding-bottom: 50px;
-}
 </style>

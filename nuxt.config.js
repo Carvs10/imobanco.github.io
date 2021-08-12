@@ -11,7 +11,7 @@ export default {
     }
   ],
   head: {
-    title: "IMOBANCO | Gestão inteligente de Recebimento",
+    title: "IMOBANCO | Recebimentos e Cobranças",
     meta: [
       {
         charset: "utf-8",
@@ -23,7 +23,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: process.env.npm_package_description || "",
+        content: "Tenha sua gestão financeira facilitada, para você focar no que realmente importa: Fechar novos e bons negócios",
       },
     ],
     link: [
@@ -53,8 +53,7 @@ export default {
    ** Global CSS
    */
   css: [
-    "@/assets/css/main.css",
-    "@/assets/css/custom.scss",
+    "@/assets/scss/custom.scss",
     // '@/assets/css/animate.css'
   ],
 
@@ -73,12 +72,14 @@ export default {
 
   plugins: [
     {
+      src: "~plugins/bootstrap-vue",
+    },
+    {
       src: "~/plugins/js/main.js",
     },
     {
       src: "~/plugins/js/axios.js",
     },
-
     {
       src: "~/plugins/vue-notification.js",
       ssr: false,
@@ -99,6 +100,7 @@ export default {
     "@nuxtjs/svg",
     "@neneos/nuxt-animate.css",
   ],
+  
   /*
    ** Build configuration
    */
@@ -108,4 +110,5 @@ export default {
      */
     extend(config, ctx) { },
   },
+  
 };

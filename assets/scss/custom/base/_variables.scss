@@ -1,0 +1,468 @@
+/* main css Imobanco Theme */   
+.page-enter-active, .page-leave-active {
+  transition: linear .5s
+  }
+  .page-enter, .page-leave-active {
+    opacity: 0
+  }
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;   
+}
+.slideposition{
+  display: block;
+  vertical-align: middle;
+ 
+}
+.lineimobanco {
+  width: 40% auto;
+  border: 1px solid #00c1de;
+}
+
+.form-radius-total {
+  border-radius: 20px;
+}
+.form-radius {
+  border-radius: 10px;
+}
+
+//Card Imobanco
+.card-transparent {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.card-desktop {
+  margin-top: 100px;
+}
+
+.card-border {
+  border: 0px !important;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #0e153a !important;
+  background-color: #21e6c1 !important;
+  border: 0px !important;
+  border-radius: 20px;
+}
+
+.nav-tabs .nav-link,
+.nav-tabs .nav-item.show .nav-link a {
+  color: #ffffff !important;
+  // background-color: #0e153a !important;
+  border: 0px !important;
+}
+
+.nav-tabs .nav-link,
+.nav-tabs .nav-item.show .nav-link a:hover {
+  color: #ffffff !important;
+  // background-color: #0e153a !important;
+  border: 0px !important;
+}
+
+.nav-pills-custom .nav-link {
+  color: #aaa;
+  background: #fff;
+  position: relative;
+}
+
+.nav-pills-custom .nav-link.active {
+  color: #45b649;
+  background: #fff;
+}
+
+/* Add indicator arrow for the active tab */
+@media (min-width: 992px) {
+  .nav-pills-custom .nav-link::before {
+    content: "";
+    display: block;
+    border-top: 8px solid transparent;
+    border-left: 10px solid #fff;
+    border-bottom: 8px solid transparent;
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+}
+
+.nav-pills-custom .nav-link.active::before {
+  opacity: 1;
+}
+
+// Color system
+/*
+Cores do Template Dashboard Imobanco
+*/
+
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+
+$grays: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$grays: map-merge(
+(
+"100": $gray-100,
+"200": $gray-200,
+"300": $gray-300,
+"400": $gray-400,
+"500": $gray-500,
+"600": $gray-600,
+"700": $gray-700,
+"800": $gray-800,
+"900": $gray-900
+),
+$grays
+);
+
+$primary: #002c5f !default;
+$secondary: #6e6d7a !default;
+$info: #003e69 !default;
+$success: #00c1de !default;
+$danger: #ff304f !default;
+$warning: #ffd615 !default;
+$light: #ffffff !default;
+$gray-light: #f4f4f4 !default;
+$gray-medio: #e5e5e5 !default;
+$gray: #b0b0b0 !default;
+$dark: #171717 !default;
+
+$blue: #007bff !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #28a745 !default;
+$teal: #20c997 !default;
+$cyan: #17a2b8 !default;
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+(
+"blue": $blue,
+"indigo": $indigo,
+"purple": $purple,
+"pink": $pink,
+"red": $red,
+"orange": $orange,
+"yellow": $yellow,
+"green": $green,
+"teal": $teal,
+"cyan": $cyan,
+"white": $white,
+"gray": $gray-600,
+"gray-dark": $gray-800
+),
+$colors
+);
+
+$primary: $primary !default;
+$secondary: $secondary !default;
+$info: $info !default;
+$success: $success !default;
+$danger: $danger !default;
+$warning: $warning !default;
+$light: $light !default;
+$dark: $dark !default;
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+(
+"primary": $primary,
+"secondary": $secondary,
+"success": $success,
+"info": $info,
+"warning": $warning,
+"danger": $danger,
+"light": $light,
+"dark": $dark,
+),
+$theme-colors
+);
+
+// Background colors
+$bg-color-primary: #002c5f;
+$bg-color-secondary: #212121;
+$bg-color-info: #002f6c;
+$bg-color-success: #00acc1;
+$bg-color-danger: #d50000;
+$bg-color-warning: #ffb300;
+$bg-color-light: #eeeeee;
+$bg-color-dark: #000a12;
+// Outline
+$bg-outline-style-default: background-color rgba(0,0,0, 0.0);
+
+// Cards
+$card-margin-top: 20px;
+// Fonts
+$font-family-base-imobanco: 'roboto', sans-serif !default;
+$font-family-base-imobanco-color: $primary;
+$font-family-card-imobanco-color: $primary !default;
+
+// Fonts Impressos
+$font-impressos: 'roboto', sans-serif !default;
+$font-impressos-titulo: 12px;
+$font-impressos-titulo-carne: 11px;
+$font-impressos-titulo-small: 10px;
+$font-impressos-titulo-big: 14px;
+
+
+
+.bg-gradient-ecommerce{
+  background: rgb(0,44,95);
+  background: linear-gradient(70deg, rgba(0,44,95,1) 0%, rgba(0,193,222,1) 100%); 
+}
+%br-button{
+  border: 1px solid;
+  }
+  .btn{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px 10px;
+  border: 1px solid $primary;
+  border-radius: 4px;
+  color: $light;
+  background-color: $primary;
+  cursor: pointer;
+  // 'margin: 5px;'
+  
+  &:hover{
+  background-color: $bg-color-primary;
+  color: $light;
+  text-decoration: none;
+  }
+  
+  &-primary{
+  background-color: $primary;
+  }
+  &-secondary{
+  background-color: $secondary;
+  border: 1px solid $secondary;
+  
+  &:hover{
+    background-color: $bg-color-secondary;
+  }  
+  }
+  &-success{
+  background-color: $success;
+  border: 1px solid $success;
+  
+  &:hover{
+    background-color: $bg-color-success;
+  }  
+  }
+  &-info{
+  background-color: $info;
+  border: 1px solid $info;
+  
+  &:hover{
+    background-color: $bg-color-info;
+  }  
+  }
+  &-danger{
+  background-color: $danger;
+  border: 1px solid $danger;
+  
+  &:hover{
+    background-color: $bg-color-danger;
+  }  
+  }
+  &-warning{
+  background-color: $warning;
+  border: 1px solid $warning;
+  color: $dark;
+  
+  &:hover{
+    background-color: $bg-color-warning;
+    color: $dark;
+  }  
+  }
+  &-light{
+  background-color: $light;
+  border: 1px solid $light;
+  color: $dark;
+  
+  &:hover{
+    background-color: $bg-color-light;
+    color: $dark;
+  }  
+  }
+  &-dark{
+  background-color: $dark;
+  border: 1px solid $dark;
+  color: $light;
+  
+  &:hover{
+    background-color: $bg-color-dark;
+    color: $light;
+  }  
+  }
+  &-outline{
+  border: 1px solid $primary;
+  
+  &-primary{
+    background-color: transparent;
+    color: $primary;
+  }
+  &-secondary{
+    background-color: transparent;
+    color: $secondary;
+    border: 1px solid $secondary;
+    &:hover{
+      background-color: $secondary;
+      color: $light;
+    }  
+  }
+  &-info{
+    background-color: transparent;
+    color: $info;
+    border: 1px solid $info; 
+    &:hover{
+      background-color: $info;
+      color: $light;
+    }  
+  }
+  &-success{
+    background-color: transparent;
+    color: $success;
+    border: 1px solid $success; 
+    &:hover{
+      background-color: $success;
+      color: $light;
+    }  
+  }
+  &-danger{
+    background-color: transparent;
+    color: $danger;
+    border: 1px solid $danger; 
+    &:hover{
+      background-color: $danger;
+      color: $light;
+    }  
+  }
+  &-warning{
+    background-color: transparent;
+    color: $secondary;
+    border: 1px solid $warning; 
+    &:hover{
+      background-color: $warning;
+      color: $secondary;
+    }  
+  }
+  &-light{
+    background-color: transparent;
+    color: $secondary;
+    border: 1px solid $gray; 
+    &:hover{
+      background-color: $gray;
+      color: $secondary;
+      border: 1px solid $gray; 
+    }  
+  }
+  &-dark{
+    background-color: transparent;
+    color: $dark;
+    border: 1px solid $dark; 
+    &:hover{
+      background-color: $dark;
+      color: $light;
+    }  
+  }
+  }
+  }
+
+.videobase{
+  padding: 50px;
+}
+.seguranca{
+  background-color: #ffffff;
+}
+.card-seguro{
+  background-color: #111827;
+  border: 2px solid#00C1DE;
+  border-radius: 20px;
+}
+.icon-seguro{
+  color: #00C1DE;
+}
+.videosection{
+  background-color: #111827;
+}
+.logo-video{
+  width: 300px;
+}
+.contadital-img{
+  border-radius: 20px;
+}
+.quemsomos-img{
+  border-radius: 20px;
+}
+.qrcode{
+  width: 200px;
+}
+// .vantagens{
+//   background-image: url("../../static/image/bg-right-seta.png");
+//   background-position: right;
+//   background-repeat: no-repeat;
+//   position: relative;
+//   overflow: hidden;
+// }
+.card-bg{
+  background-color: #111827;
+}
+.contageral{
+  background-color: #e7e7e7;
+}
+.linhaimobanco{
+  border: solid 1px $success;
+}
+.conta-dash{
+  background-color: #f5f5f5;
+}
+.parceiros-logo{
+  background-color: #f1f1f1;
+  background-image: url("../../static/image/layout/back-pattern.png");
+}
+
+.vantagens-foto{
+  background-color: #f1f1f1;
+  background-image: url("../../static/image/layout/bg-vantagens.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% cover;
+}
+
+.slidetop{
+    // background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%,  rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+    height: 550px;
+    background: linear-gradient(45deg, #111827, #002C5F, #2671c7, #00C1DE);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+  }
+  @keyframes colors{
+    0% {
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+  }

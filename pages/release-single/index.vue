@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div>
     <ReleaseSingle/>
   </div>
 </template>

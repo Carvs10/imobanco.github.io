@@ -1,7 +1,7 @@
 <template>
-  <div class="container-fluid">
-    <contact-slide />
-    <contact-content />
+  <div>
+    <ContactSlide />
+    <ContactContent />
     <!--<chat-comercial />-->
     <!-- <contact-question /> -->
   </div>
