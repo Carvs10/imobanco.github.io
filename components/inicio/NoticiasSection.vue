@@ -2,8 +2,8 @@
   <section class="">
     <b-container>
       <b-row>
-        <b-col cols="12" md="6" lg="12" class="text-left">
-          <h3 class="text-primary title-font">{{titulo}}</h3>
+        <b-col cols="12" md="12" lg="12" class="text-center">
+          <h2 class="text-primary title-font">{{titulo}}</h2>
         </b-col>
       </b-row>
       <b-row>

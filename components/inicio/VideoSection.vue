@@ -1,10 +1,10 @@
 <template>
-  <section class="videosection">
+  <section class="contageral">
     <b-container class="videobase">
       <b-row class="">
         <b-col lg="12" class="text-center">
-          <h2 class="text-light title-font">Vídeo</h2>
-            <p class="text-light">Vídeo, podcast e muito mais.</p>
+          <h2 class="text-primary title-font">Vídeo</h2>
+            <p class="text-primary">Vídeo, podcast e muito mais.</p>
         </b-col>
         <b-col lg="12">
           <img src="../../static/image/logo-globo-rn.png" alt class="img-fluid logo-video" />
@@ -21,7 +21,7 @@
           ></iframe>
         </b-col>
         <b-col cols="12" md="6" lg="6" class="text-left mt-2">
-          <h2 class="title-font text-light">Tire suas dúvidas sobre o 'PIX' - com o CEO Fernando Colares</h2>
+          <h2 class="title-font text-primary">Tire suas dúvidas sobre o 'PIX' - com o CEO Fernando Colares</h2>
           <p class="text-subtitle">
             Bom Dia RN - TV GLOBO
           </p>

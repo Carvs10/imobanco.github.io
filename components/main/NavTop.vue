@@ -31,13 +31,13 @@
                     >Quem Somos</router-link
                   >
             </b-nav-item>
-            <!-- <b-nav-item>
+            <b-nav-item>
                   <router-link
                     to="/Ecommerce"
                     class=""
                     >Ecommerce</router-link
                   >
-             </b-nav-item> -->
+             </b-nav-item>
               <b-nav-item>    
                   <router-link
                     to="/conta"
@@ -53,33 +53,7 @@
                   >
               </b-nav-item>
         
-        <!-- <b-nav-item>
-            <b-nav-item-dropdown class="text-light" text="Serviços" right>
-                <b-dropdown-item> 
-                  <router-link to="/Boletos" class=" text-primary" >Boletos </router-link>
-                </b-dropdown-item>
-                <b-dropdown-item> 
-                  <router-link to="/quemsomos" class=" text-primary" >Carnê</router-link>
-                </b-dropdown-item>
-                <b-dropdown-item> 
-                  <router-link to="/Boletos" class=" text-primary" >Ecommerce </router-link>
-                </b-dropdown-item>
-                <b-dropdown-item> 
-                  <router-link to="/Boletos" class=" text-primary" >Folha de Pagamento </router-link>
-                </b-dropdown-item>
-                <b-dropdown-item> 
-                  <router-link to="/Boletos" class=" text-primary" >Pix deposito </router-link>
-                </b-dropdown-item>
-                <b-dropdown-item> 
-                  <router-link to="/Boletos" class=" text-primary" >Split de Pagamentos </router-link>
-                </b-dropdown-item>
-                <b-dropdown-item> 
-                  <router-link to="/Boletos" class=" text-primary" >Sistema de Pagamentos </router-link>
-                </b-dropdown-item>    
-            </b-nav-item-dropdown>
-       </b-nav-item> -->
-
-                 <b-nav-item>
+              <b-nav-item>
                   <router-link
                     to="/imprensa"
                     class=""
@@ -94,7 +68,7 @@
                   > 
                   </b-nav-item>
         
-                  <a href="https://app.imobanco.com.br/login" class="btn btn-success text-light">Login</a>
+                  <a href="https://app.imobanco.com.br/login" class="btn btn-success text-light mx-1">Login</a>
                   <a href="https://app.imobanco.com.br/register" class="btn text-light">Abra sua conta</a>
                   
       </b-navbar-nav>
