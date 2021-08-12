@@ -31,13 +31,13 @@
                     >Quem Somos</router-link
                   >
             </b-nav-item>
-            <b-nav-item>
+            <!-- <b-nav-item>
                   <router-link
                     to="/Ecommerce"
                     class=""
                     >Ecommerce</router-link
                   >
-             </b-nav-item>
+             </b-nav-item> -->
               <b-nav-item>    
                   <router-link
                     to="/conta"
@@ -69,7 +69,7 @@
                   </b-nav-item>
         
                   <a href="https://app.imobanco.com.br/login" class="btn btn-success text-light mx-1">Login</a>
-                  <a href="https://app.imobanco.com.br/register" class="btn text-light">Abra sua conta</a>
+                  <a href="https://app.imobanco.com.br/register" class="btn text-light mx-1">Abra sua conta</a>
                   
       </b-navbar-nav>
     </b-collapse>

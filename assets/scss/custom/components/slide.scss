@@ -7,6 +7,33 @@
   position: relative;
   overflow: hidden;
 }
+.slide-home-solucoes{
+  width: 100%;
+  height: 550px;
+  background-image: url("../../static/image/layout/bg-solucoes.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+.slide-home-quemsomos{
+  width: 100%;
+  height: 550px;
+  background-image: url("../../static/image/layout/bg-quemsomos.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+.slide-home-contadigital{
+  width: 100%;
+  height: 550px;
+  background-image: url("../../static/image/layout/bg-contadigital.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
 .text-slide{
   font-family: "Ubuntu", sans-serif;
   font-weight: 900;

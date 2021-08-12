@@ -1,6 +1,6 @@
 <template>
      <div>
-      <BoletoSlide />
+      <QuemSomos />
       <QuemFernando />
       
     </div>
@@ -8,7 +8,7 @@
 
 <script>
 
-import BoletoSlide from "@/components/boletos/BoletoSlide.vue";
+import QuemSomos from "@/components/quemsomos/QuemSomos.vue";
 import QuemFernando from "@/components/quemsomos/QuemFernando.vue";
 import MaisBoleto from "@/components/boletos/MaisBoleto.vue";
 
@@ -38,9 +38,9 @@ export default {
     ],
   },
   components: {
-    BoletoSlide,
+    QuemSomos,
     QuemFernando,
-    MaisBoleto,
+    
   },
 };
 </script>

@@ -1,19 +1,23 @@
 <template>
   <div>
-      <BoletoSlide />
+    <SolucoesSlide />
     <Solucoes />
     <Solucoesboleto />   
     <Solucoessplit />   
     <SolucoesImopix />   
+    <SolucoesEcommerce />   
+    <SolucoesTransferencia />   
   </div>
 </template>
 
 <script>
-import BoletoSlide from "@/components/boletos/BoletoSlide.vue";
+import SolucoesSlide from "@/components/solucoes/SolucoesSlide.vue";
 import Solucoes from "@/components/solucoes/Solucoes.vue";
 import Solucoesboleto from "@/components/solucoes/Solucoesboleto.vue";
 import Solucoessplit from "@/components/solucoes/Solucoessplit.vue";
 import SolucoesImopix from "@/components/solucoes/SolucoesImopix.vue";
+import SolucoesEcommerce from "@/components/solucoes/SolucoesEcommerce.vue";
+import SolucoesTransferencia from "@/components/solucoes/SolucoesTransferencia.vue";
 
 export default {
     head: {
@@ -41,11 +45,13 @@ export default {
     ],
   },
   components: {
-    BoletoSlide,
+    SolucoesSlide,
     Solucoes,
     Solucoesboleto,
     Solucoessplit,
     SolucoesImopix,
+    SolucoesEcommerce,
+    SolucoesTransferencia,
   },
 };
 </script>

@@ -2,16 +2,8 @@
     <section class="my-5">
         <b-container>
             <b-row class="justify-content-center">
-                <b-col lg="3">
-                                        <img src="../../static/image/layout/fernando-colares-ceo-imobanco.jpg" alt class="img-fluid quemsomos-img" />
-                    <h5 class="text-title text-primary mt-2">
-                         Fernando Colares - CEO Imobanco
-                    </h5>
-                    <p class="text-justify">
-                        Contador (CRC 9510-/T CE) e Advogado (OAB 7846), atuante nas áreas de Perícia Contábil, Intervenção Judicial, Administração Judicial e Advocacia. Fernando Colares criou o Imobanco, com o foco em ser uma instituição financeira de negócios com serviços de conta digital.  
-                    </p>
-                    </b-col> 
-                <b-col lg="7">
+                
+                <b-col lg="10">
                     <h2 class="text-title text-primary">
                         Quem somos
                         <hr class="linhaimobanco">

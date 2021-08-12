@@ -2,21 +2,21 @@
   <section class="slide-home">
     <b-container>
       <b-row>
-      <b-col lg=6 class="slide-home-text">
+      <b-col lg="6" class="slide-home-text">
         <h1 class="text-light text-title">Recebimentos e cobranças <br> em um único lugar.</h1>
         
       <div class="mt-2">
-          <a href="https://app.imobanco.com.br/register" target="_blank" class="btn btn-success">Abra sua conta</a>
+          <a href="https://app.imobanco.com.br/register" class="btn btn-outline-success">Quero ser cliente Imobanco</a>
       </div>
       </b-col>
-      <b-col lg=6 class="slide-home-text-right">
-        <img src="../../static/image/layout/dash-conta.png" alt="" class="img-fluid" />
+      <b-col lg="6">
+        <!-- <img src="../../static/image/layout/dash-conta.png" alt="" class="img-fluid" /> -->
       </b-col>
     </b-row>
     </b-container>
-      <!-- <div>
+      <div>
         <img src="../../static/image/bg-home-1.png" alt="" class="waves" />
-     </div>      -->
+     </div>     
   </section>
 </template>
 

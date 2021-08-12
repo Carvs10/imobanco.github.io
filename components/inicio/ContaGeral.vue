@@ -29,7 +29,22 @@
       </div>
 
 
+      
+
+
       <div class="col-lg-4">
+        <div class="card mb-3 card-bg">
+           
+                <div class="card-body card-bg">
+                    <h5 class="text-success"><i class="far fa-arrow-alt-circle-right mr-2"></i> IMOPIX</h5>
+                    <p class="text-light content">É o PIX depósito identificado, onde você ou um terceiro, podem realizar um depósito via qrcode para sua conta digital.
+
+Com o IMOPIX a movimentação financeira é imediata e você terá o dinheiro em sua conta digital. </p>
+                </div>
+
+        </div>
+      </div>
+      <div class="col-lg-12">
         <div class="card mb-3 card-bg">
             
                 <div class="card-body card-bg">
@@ -37,18 +52,6 @@
                     <p class="text-light content">Com a conta digital Imobanco é possível realizar transferência de valores entre contas Imobanco ou qualquer das 183 instituições cadastradas no Banco Central. </p>
                 </div>
  
-        </div>
-      </div>
-
-
-      <div class="col-lg-12">
-        <div class="card mb-3 card-bg">
-           
-                <div class="card-body card-bg">
-                    <h5 class="text-success"><i class="far fa-arrow-alt-circle-right mr-2"></i> Gateway de pagamentos</h5>
-                    <p class="text-light content">Sistema de pagamentos completo para você receber, transferir e pagar.</p>
-                </div>
-
         </div>
       </div>
       <b-col lg="12" class="text-center">
