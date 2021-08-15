@@ -3,7 +3,8 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6">
-        <img src="../../static/image/layout/contadital-pessoas.jpg" alt class="img-fluid contadital-img" />
+        <!-- <img src="../../static/image/layout/contadital-pessoas.jpg" alt class="img-fluid contadital-img" /> -->
+        <img src="../../static/image/layout/computador-contadigital.gif" alt class="img-fluid" />
         
       </div>
       <div class="col-lg-6 text-left">
