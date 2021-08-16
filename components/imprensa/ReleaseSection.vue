@@ -4,9 +4,9 @@
       <b-col cols="12" md="12" lg="12" class="text-left">
         <h2 class="text-primary text-title mt-3 mb-4">Release imprensa</h2>
       </b-col>
-     
+
       <b-col cols="12" md="12" lg="12" class="text-left pt-5 pb-5">
-        <div v-for="release in response" :key="release" :v-if="response">
+        <div v-for="release in response" :key="release.id" :v-if="response">
           <Release :release="release" :release_id="release['id']" />
         </div>
       </b-col>
@@ -19,12 +19,12 @@ import Release from "./Release";
 export default {
   name: "App",
   components: {
-    Release
+    Release,
   },
   data() {
     return {
       // Initialize "response"
-      response: null
+      response: null,
     };
   },
   methods: {
@@ -35,15 +35,13 @@ export default {
         this.$prismic.Predicates.at("document.type", "releases")
       );
       this.response = response["results"].slice(0, 2);
-    }
+    },
   },
   created() {
     // Call the API query method
     this.getContent();
-  }
+  },
 };
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

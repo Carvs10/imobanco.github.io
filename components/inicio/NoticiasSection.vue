@@ -3,7 +3,7 @@
     <b-container>
       <b-row>
         <b-col cols="12" md="12" lg="12" class="text-center">
-          <h2 class="text-primary title-font">{{titulo}}</h2>
+          <h2 class="text-primary title-font">{{ titulo }}</h2>
         </b-col>
       </b-row>
       <b-row>
@@ -13,18 +13,29 @@
           lg="4"
           class="text-left mt-2"
           v-for="post in response"
-          :key="post"
+          :key="post.id"
           :v-if="response"
         >
           <Noticias
             :post_id="response[response.indexOf(post)]['id']"
-            :post_title="response[response.indexOf(post)]['data']['titulo'][0]['text']"
-            :post_image="response[response.indexOf(post)]['data']['imagem']['url']"
-            :post_date="response[response.indexOf(post)]['first_publication_date'].split('T')[0].split('-').reverse().join('/')"
-            :post_content="response[response.indexOf(post)]['data']['conteudo'][0]['text']"
+            :post_title="
+              response[response.indexOf(post)]['data']['titulo'][0]['text']
+            "
+            :post_image="
+              response[response.indexOf(post)]['data']['imagem']['url']
+            "
+            :post_date="
+              response[response.indexOf(post)]['first_publication_date']
+                .split('T')[0]
+                .split('-')
+                .reverse()
+                .join('/')
+            "
+            :post_content="
+              response[response.indexOf(post)]['data']['conteudo'][0]['text']
+            "
           />
         </b-col>
-
       </b-row>
     </b-container>
   </section>
@@ -35,28 +46,28 @@ export default {
   name: "App",
   props: ["titulo"],
   components: {
-    Noticias
+    Noticias,
   },
   data() {
     return {
-     
-      response: null
+      response: null,
     };
   },
   methods: {
     async getContent() {
-    
       const response = await this.$prismic.client.query(
-        this.$prismic.Predicates.at("document.type", "post")
+        this.$prismic.Predicates.at("document.type", "post"),
+        {
+          orderings: "[document.last_publication_date desc]",
+        }
       );
-      
+
       this.response = response["results"].slice(0, 3);
-    }
+    },
   },
   created() {
-   
     this.getContent();
-  }
+  },
 };
 </script>
 <style lang="scss" scoped>
