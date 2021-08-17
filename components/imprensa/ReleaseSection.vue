@@ -5,7 +5,7 @@
         <h2 class="text-primary text-title mt-3 mb-4">Release imprensa</h2>
       </b-col>
 
-      <b-col cols="12" md="12" lg="12" class="text-left pt-5 pb-5">
+      <b-col cols="12" md="12" lg="8" class="text-left pt-5 pb-5">
         <div v-for="release in response" :key="release.id" :v-if="response">
           <Release :release="release" :release_id="release['id']" />
         </div>
@@ -34,7 +34,7 @@ export default {
       const response = await this.$prismic.client.query(
         this.$prismic.Predicates.at("document.type", "releases")
       );
-      this.response = response["results"].slice(0, 2);
+      this.response = response["results"].slice(0, 10);
     },
   },
   created() {

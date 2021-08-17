@@ -3,7 +3,7 @@
     <b-container>
       <b-row>
         <b-col cols="12" md="12" lg="12" class="text-center">
-          <h2 class="text-primary title-font">{{ titulo }}</h2>
+          <h2 class="text-primary title-font">Notícias</h2>
         </b-col>
       </b-row>
       <b-row>
@@ -62,7 +62,7 @@ export default {
         }
       );
 
-      this.response = response["results"].slice(0, 3);
+      this.response = response["results"].slice(0, 6);
     },
   },
   created() {

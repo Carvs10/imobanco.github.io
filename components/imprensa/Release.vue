@@ -1,9 +1,7 @@
 <template>
   <b-row>
-    <b-col cols="12" md="12" lg="12" class="text-left">
-      <p
-        style="font-size:12px"
-      >Entrevista {{release['data']['data'].split('-').reverse().join('/')}}</p>
+    <b-col cols="12" md="12" lg="3" class="text-left">
+      <p>{{release['data']['data'].split('-').reverse().join('/')}}</p>
     </b-col>
     <b-col cols="12" md="12" lg="3" class="text-left">
       <img src="image/bg-imo.jpg" alt class="img-fluid pb-3" />

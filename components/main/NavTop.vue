@@ -57,8 +57,14 @@
                   <router-link
                     to="/imprensa"
                     class=""
-                    >Blog</router-link
+                    >Imprensa</router-link
                   >
+                   </b-nav-item>
+                   <b-nav-item>
+                  <router-link
+                    to="/imprensa"
+                    class=""
+                    >Blog</router-link>
                    </b-nav-item>
                   <b-nav-item>
                   <router-link
