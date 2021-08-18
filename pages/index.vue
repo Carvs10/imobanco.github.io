@@ -8,7 +8,7 @@
     <VideoSection />
     <EcommerceChamada />
     <!-- <TecnologiaSection />    -->
-    <NoticiasSection titulo="Notícias" />
+    <NoticiasSectionindex titulo="Notícias" />
   </div>
 </template>
 
@@ -20,7 +20,7 @@ import VideoSection from "../components/inicio/VideoSection";
 import ParceiroLogo from "../components/inicio/ParceiroLogo";
 import ParceiroSection from "../components/inicio/ParceiroSection";
 import TecnologiaSection from "../components/inicio/TecnologiaSection";
-import NoticiasSection from "../components/inicio/NoticiasSection";
+import NoticiasSectionindex from "../components/inicio/NoticiasSectionindex";
 import EcommerceChamada from "@/components/ecommerce/EcommerceChamada.vue";
 
 export default {
@@ -32,7 +32,7 @@ export default {
     ParceiroLogo,
     ParceiroSection,
     TecnologiaSection,
-    NoticiasSection,
+    NoticiasSectionindex,
     EcommerceChamada,
   }
 };
