@@ -17,14 +17,19 @@
           <br />Sábados, Domingos e feriados nacionais, sem expediente​
         </p>
         <br />
-        <h5 class="text-subtitle text-center text-black">Agendamento - Comercial e Suporte</h5>
-        <p>
-          <a href="https://calendly.com/imobanco/atendimento-presencial?month=2021-06" class="btn btn-success my-1">Atendimento Presencial - Vendas</a>
-          <a href="https://calendly.com/imobanco/atendimento-telefonico-imobanco" class="btn btn-success my-1">Atendimento Online - Vendas</a>
-          <a href="https://calendly.com/imobanco" class="btn btn-success my-1">Outros</a>
-          <br />​
-        </p>
-      </b-col>
+        </b-col>
+        <div class="col-lg-12 text-center">
+            <h2 class="text-primary">Agendamento</h2>
+            <h5 class="text-success">Muito mais que uma conta.</h5>
+            <p class="text-sucess content">Você no controle administrativo dos seus pagamentos e recebimentos.</p>
+        </div>
+
+        <div class="col-lg-12">
+        <!-- Widget em linha do Calendly - início -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/imobanco/atendimento-telefonico-imobanco" style="min-width:320px;height:630px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Widget em linha do Calendly - fim -->
+        </div>
     </b-row>
   </b-container>
 </template>

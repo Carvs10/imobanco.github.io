@@ -2,7 +2,7 @@
   <section>
     <b-container>
       <b-row>
-        <b-col cols="12" md="12" lg="6" class="text-left pt-3">
+        <b-col cols="12" md="12" lg="12" class="text-center pt-3">
           <p class="mt-2">
             <span>
               <a href="https://www.facebook.com/imobanco/">
@@ -33,15 +33,6 @@
           <p class="text-white text-content mt-3">
             Imobanco 2020 © - Todos os direitos reservados.
           </p>
-        </b-col>
-        <b-col lg="2" class="pt-3">
-          <img src="../../static/image/layout/logo-accesstage.png" alt class="img-fluid" />
-        </b-col>
-        <b-col lg="2" class="pt-3">
-          <img src="../../static/image/layout/logo-aws.png" alt class="img-fluid" />
-        </b-col>
-        <b-col lg="2" class="pt-3">
-          <img src="../../static/image/layout/logo-bb.png" alt class="img-fluid" />
         </b-col>
       </b-row>
     </b-container>
