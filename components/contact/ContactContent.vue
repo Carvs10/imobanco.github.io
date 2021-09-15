@@ -24,11 +24,24 @@
             <p class="text-sucess content">Você no controle administrativo dos seus pagamentos e recebimentos.</p>
         </div>
 
-        <div class="col-lg-12">
-        <!-- Widget em linha do Calendly - início -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/imobanco?hide_landing_page_details=1" style="min-width:320px;height:630px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-<!-- Widget em linha do Calendly - fim -->
+        <div class="col-lg-12 text-center">
+          <!-- Widget de link do Calendly - início -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<a href="" class="btn btn-primary m-2" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/imobanco/atendimento-presencial'});return false;"><i class="fas fa-walking"></i> | Agendamento - Presencial</a>
+<!-- Widget de link do Calendly - fim -->
+
+          <!-- Widget de link do Calendly - início -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<a href="" class="btn btn-primary m-2" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/imobanco/atendimento-telefonico-imobanco'});return false;"><i class="fas fa-phone-alt"></i> | Agendamento - Telefônico</a>
+<!-- Widget de link do Calendly - fim -->
+
+<!-- Widget de link do Calendly - início -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<a href="" class="btn btn-primary m-2" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/imobanco/reuniao-videochamada-zoom-imobanco'});return false;"><i class="fas fa-video"></i> | Agendamento - Vídeo Chamada</a>
+<!-- Widget de link do Calendly - fim -->
         </div>
     </b-row>
   </b-container>
