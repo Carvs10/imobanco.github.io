@@ -62,7 +62,7 @@
                    </b-nav-item>
                    <b-nav-item>
                   <router-link
-                    to="/imprensa"
+                    to="/blog"
                     class=""
                     >Blog</router-link>
                    </b-nav-item>

@@ -3,7 +3,7 @@
     <b-container>
       <b-row>
         <b-col cols="12" md="12" lg="12" class="text-center">
-          <h2 class="text-primary title-font">Notícias</h2>
+          <h2 class="text-primary title-font">Notícias Index</h2>
         </b-col>
       </b-row>
       <b-row>

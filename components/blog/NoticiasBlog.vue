@@ -1,7 +1,7 @@
 <template>
   <b-row>
     <b-col cols="12" md="12" lg="12" class="mb-3">
-      <img :src="post_image" alt="Post de Notícias" class="img-fluid rounded" />
+      <img :src="post_image" alt="Post de Notícias" class="img-fluid" />
       <span>
         <a :href="link+post_id" class="text-primary text-title">{{post_title}}</a>
       </span>
